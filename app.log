@@ -1,0 +1,402 @@
+2024-03-19 17:51:32,422 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-19 17:51:32,422 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-19 17:51:32,422 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 17:51:33,397 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 17:51:33,397 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 17:58:21,798 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-19 17:58:21,798 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-19 17:58:21,814 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 17:58:22,830 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 17:58:22,830 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 18:06:27,645 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-19 18:06:27,645 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-19 18:06:27,645 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 18:06:28,660 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 18:06:28,676 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 18:06:41,341 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:06:41] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-03-19 18:06:41,482 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:06:41] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-03-19 18:06:41,513 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:06:41] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-03-19 18:06:41,654 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:06:41] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-03-19 18:06:41,813 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:06:41] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 18:12:11,963 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\models\\admin_model.py', reloading
+2024-03-19 18:12:12,139 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 18:12:13,267 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 18:12:13,267 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 18:12:13,345 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\models\\admin_model.py', reloading
+2024-03-19 18:12:13,500 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 18:12:14,697 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 18:12:14,713 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 18:12:24,981 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-19 18:12:24,981 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-19 18:12:24,988 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 18:12:26,401 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 18:12:26,401 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 18:12:27,891 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:12:27] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-03-19 18:12:28,016 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:12:28] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-19 18:12:28,031 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:12:28] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-19 18:12:28,047 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:12:28] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 18:12:28,125 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:12:28] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 18:12:54,545 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\models\\admin_model.py', reloading
+2024-03-19 18:12:54,670 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 18:12:55,760 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 18:12:55,775 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 18:13:10,458 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\models\\admin_model.py', reloading
+2024-03-19 18:13:10,625 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 18:13:11,846 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 18:13:11,862 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 18:13:17,262 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\models\\admin_model.py', reloading
+2024-03-19 18:13:17,415 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 18:13:48,186 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-19 18:13:48,186 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-19 18:13:48,186 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 18:13:49,139 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 18:13:49,155 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 18:13:50,606 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:13:50] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-03-19 18:13:50,699 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:13:50] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-19 18:13:50,746 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:13:50] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-19 18:13:50,777 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:13:50] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 18:13:50,840 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:13:50] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 18:14:46,406 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\models\\__init__.py', reloading
+2024-03-19 18:14:46,580 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 18:15:08,126 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-19 18:15:08,126 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-19 18:15:08,126 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 18:15:09,173 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 18:15:09,173 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 18:15:09,407 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:15:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-03-19 18:15:09,501 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:15:09] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-19 18:15:09,563 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:15:09] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-19 18:15:09,579 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:15:09] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 18:15:09,641 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:15:09] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 18:15:46,783 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\models\\admin_model.py', reloading
+2024-03-19 18:15:46,945 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 18:15:48,056 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 18:15:48,072 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 18:15:49,198 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\models\\admin_model.py', reloading
+2024-03-19 18:15:49,342 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 18:15:50,534 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 18:15:50,550 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 18:15:55,852 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\models\\admin_model.py', reloading
+2024-03-19 18:15:56,006 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 18:15:57,407 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 18:15:57,423 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 18:15:59,571 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\models\\admin_model.py', reloading
+2024-03-19 18:15:59,720 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 18:16:01,008 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 18:16:01,024 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 18:16:07,430 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-19 18:16:07,430 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-19 18:16:07,430 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 18:16:08,477 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 18:16:08,492 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 18:16:08,883 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:16:08] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-03-19 18:16:08,992 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:16:08] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-19 18:16:09,055 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:16:09] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-19 18:16:09,070 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:16:09] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 18:16:09,164 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:16:09] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 18:17:26,688 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\models\\admin_model.py', reloading
+2024-03-19 18:17:26,859 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 18:17:27,978 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 18:17:27,994 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 18:17:37,441 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\app.py', reloading
+2024-03-19 18:17:37,622 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 18:17:38,898 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 18:17:38,911 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 18:17:44,354 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\app.py', reloading
+2024-03-19 18:17:44,497 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 18:17:46,234 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 18:17:46,234 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 18:17:48,417 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\app.py', reloading
+2024-03-19 18:17:48,562 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 18:18:18,202 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-19 18:18:18,202 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-19 18:18:18,202 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 18:18:19,322 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 18:18:19,369 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 18:18:20,880 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:18:20] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-03-19 18:18:20,989 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:18:20] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-19 18:18:21,051 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:18:21] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-19 18:18:21,083 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:18:21] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 18:18:21,208 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:18:21] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 18:18:49,623 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\app.py', reloading
+2024-03-19 18:18:49,748 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 18:20:36,469 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-19 18:20:36,469 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-19 18:20:36,469 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 18:20:37,563 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 18:20:37,579 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 18:20:38,811 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:20:38] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-03-19 18:20:38,905 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:20:38] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-19 18:20:38,967 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:20:38] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-19 18:20:38,983 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:20:38] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 18:20:39,045 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 18:20:39] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 19:21:58,201 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\app.py', reloading
+2024-03-19 19:21:58,327 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 19:21:59,516 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 19:21:59,531 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 19:22:08,175 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-19 19:22:08,175 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-19 19:22:08,175 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 19:22:09,159 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 19:22:09,175 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 19:22:11,817 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 19:22:11] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-03-19 19:22:11,958 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 19:22:11] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-19 19:22:11,973 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 19:22:11] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-19 19:22:12,004 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 19:22:12] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 19:22:12,114 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 19:22:12] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 19:30:18,848 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\test.py', reloading
+2024-03-19 19:30:18,996 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 19:30:20,359 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 19:30:20,371 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 19:30:25,704 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\test.py', reloading
+2024-03-19 19:30:25,845 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 19:30:27,462 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 19:30:27,463 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 19:30:29,700 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\test.py', reloading
+2024-03-19 19:30:29,856 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 19:30:31,077 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 19:30:31,092 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 19:30:33,377 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\test.py', reloading
+2024-03-19 19:30:33,539 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 19:30:34,936 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 19:30:34,949 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 20:18:39,281 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-19 20:18:39,281 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-19 20:18:39,281 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:18:40,375 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 20:18:40,391 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 20:20:11,238 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\app.py', reloading
+2024-03-19 20:20:11,434 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:20:12,739 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 20:20:12,765 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 20:20:13,884 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\app.py', reloading
+2024-03-19 20:20:14,035 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:20:15,399 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 20:20:15,410 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 20:20:21,172 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-19 20:20:21,172 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-19 20:20:21,172 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:20:22,407 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 20:20:22,422 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 20:21:15,827 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\app.py', reloading
+2024-03-19 20:21:15,994 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:21:17,260 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 20:21:17,272 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 20:21:23,292 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-19 20:21:23,292 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-19 20:21:23,292 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:21:24,492 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 20:21:24,492 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 20:21:29,891 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\app.py', reloading
+2024-03-19 20:21:30,291 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:21:33,499 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-19 20:21:33,499 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-19 20:21:33,499 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:21:34,531 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 20:21:34,546 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 20:21:46,760 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:21:46] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-03-19 20:21:46,901 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:21:46] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-19 20:21:46,917 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:21:46] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-19 20:21:46,948 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:21:46] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 20:21:47,073 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:21:47] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 20:22:50,856 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\models\\admin_model.py', reloading
+2024-03-19 20:22:50,997 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:22:52,254 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 20:22:52,269 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 20:22:54,472 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\models\\admin_model.py', reloading
+2024-03-19 20:22:54,613 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:22:55,735 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 20:22:55,751 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 20:22:57,897 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\models\\admin_model.py', reloading
+2024-03-19 20:22:58,082 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:22:59,280 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 20:22:59,296 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 20:23:01,502 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\models\\admin_model.py', reloading
+2024-03-19 20:23:01,668 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:23:03,303 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 20:23:03,303 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 20:23:08,171 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-19 20:23:08,171 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-19 20:23:08,171 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:23:09,492 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 20:23:09,508 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 20:23:09,586 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:23:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-03-19 20:23:09,711 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:23:09] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-19 20:23:09,758 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:23:09] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-19 20:23:09,773 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:23:09] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 20:23:09,851 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:23:09] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 20:24:09,827 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\app.py', reloading
+2024-03-19 20:24:10,057 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:24:13,960 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-19 20:24:13,960 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-19 20:24:13,960 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:24:14,992 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 20:24:14,992 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 20:24:15,804 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:24:15] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-03-19 20:24:15,929 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:24:15] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-19 20:24:15,976 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:24:15] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-19 20:24:15,992 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:24:15] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 20:24:16,079 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:24:16] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 20:24:20,288 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\app.py', reloading
+2024-03-19 20:24:20,455 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:27:37,196 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-19 20:27:37,211 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-19 20:27:37,211 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:27:38,555 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 20:27:38,602 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 20:27:42,704 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:27:42] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-03-19 20:27:42,829 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:27:42] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-19 20:27:42,845 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:27:42] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-19 20:27:42,902 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:27:42] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 20:27:42,965 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:27:42] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 20:36:51,970 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-19 20:36:51,970 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-19 20:36:51,970 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:36:53,360 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 20:36:53,360 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 20:37:02,108 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:37:02] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-03-19 20:37:02,280 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:37:02] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-19 20:37:02,280 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:37:02] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-19 20:37:02,296 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:37:02] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 20:37:02,421 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:37:02] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 20:42:29,994 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-19 20:42:29,994 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-19 20:42:29,994 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:42:31,056 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 20:42:31,056 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 20:42:33,400 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:42:33] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-03-19 20:42:33,556 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:42:33] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-03-19 20:42:33,556 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:42:33] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-03-19 20:42:33,587 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:42:33] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-03-19 20:42:33,650 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:42:33] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-03-19 20:43:22,530 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\app.py', reloading
+2024-03-19 20:43:22,707 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:43:35,109 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-19 20:43:35,109 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-19 20:43:35,125 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:43:36,340 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 20:43:36,340 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 20:43:38,656 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:43:38] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-03-19 20:43:38,766 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:43:38] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-03-19 20:43:38,813 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:43:38] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-03-19 20:43:38,860 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:43:38] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-03-19 20:43:38,906 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:43:38] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-03-19 20:44:41,502 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-19 20:44:41,502 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-19 20:44:41,502 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:44:42,566 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 20:44:42,582 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 20:44:46,776 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:44:46] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-03-19 20:44:46,940 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:44:46] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-19 20:44:46,955 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:44:46] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-19 20:44:47,049 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:44:47] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 20:48:11,816 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\app.py', reloading
+2024-03-19 20:48:11,959 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:48:13,140 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 20:48:13,156 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 20:48:17,499 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-19 20:48:17,499 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-19 20:48:17,499 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:48:18,655 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 20:48:18,671 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 20:48:19,821 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:48:19] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-03-19 20:48:19,962 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:48:19] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-19 20:48:19,977 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:48:19] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-19 20:48:19,993 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:48:19] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 20:48:20,071 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:48:20] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 20:48:21,627 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:48:21] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-03-19 20:48:21,659 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:48:21] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-19 20:48:21,674 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:48:21] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-19 20:48:21,721 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:48:21] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 20:48:21,752 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:48:21] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 20:48:57,622 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\models\\admin_model.py', reloading
+2024-03-19 20:48:57,765 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:48:59,187 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 20:48:59,204 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 20:49:02,404 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-19 20:49:02,404 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-19 20:49:02,404 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:49:03,738 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 20:49:03,738 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 20:49:04,395 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:49:04] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-03-19 20:49:04,489 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:49:04] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-19 20:49:04,536 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:49:04] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-19 20:49:04,567 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:49:04] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 20:49:04,645 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:49:04] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 20:49:10,068 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\models\\admin_model.py', reloading
+2024-03-19 20:49:10,193 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:49:11,882 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 20:49:11,898 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 20:49:16,200 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\models\\admin_model.py', reloading
+2024-03-19 20:49:16,340 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:49:17,814 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 20:49:17,830 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 20:49:22,303 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-19 20:49:22,303 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-19 20:49:22,303 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:49:23,397 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 20:49:23,412 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 20:49:23,491 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:49:23] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-03-19 20:49:23,600 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:49:23] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-19 20:49:23,647 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:49:23] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-19 20:49:23,678 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:49:23] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 20:49:23,725 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:49:23] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 20:49:44,245 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\models\\admin_model.py', reloading
+2024-03-19 20:49:44,394 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:49:45,728 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 20:49:45,739 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 20:51:46,899 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\app.py', reloading
+2024-03-19 20:51:47,069 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:51:48,291 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 20:51:48,306 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 20:51:49,520 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\app.py', reloading
+2024-03-19 20:51:49,720 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:51:51,426 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 20:51:51,447 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 20:51:54,669 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\app.py', reloading
+2024-03-19 20:51:54,815 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:51:56,096 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 20:51:56,112 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 20:51:57,233 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\app.py', reloading
+2024-03-19 20:51:57,358 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:51:58,578 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 20:51:58,589 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 20:51:59,716 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\app.py', reloading
+2024-03-19 20:51:59,849 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:52:01,062 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 20:52:01,062 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 20:52:11,412 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-19 20:52:11,412 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-19 20:52:11,412 - werkzeug - INFO -  * Restarting with stat
+2024-03-19 20:52:12,976 - werkzeug - WARNING -  * Debugger is active!
+2024-03-19 20:52:12,991 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-19 20:52:13,382 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:52:13] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-03-19 20:52:13,476 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:52:13] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-19 20:52:13,538 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:52:13] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-19 20:52:13,616 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:52:13] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-19 20:52:13,694 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2024 20:52:13] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
