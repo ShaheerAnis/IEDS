@@ -16,7 +16,7 @@ class Student(db.Model):
     UniRegistrationNumber = db.Column(db.String(50), nullable=True)
     Address = db.Column(db.String(200), nullable=True)
     PlaceOfBirth = db.Column(db.DateTime, nullable=True)
-    Semester = db.Column(db.Intefer, nullable=True)
+    Semester = db.Column(db.Integer, nullable=True)
     OrganiztionId = db.Column(db.Integer, db.ForeignKey('Organiztion.Id'))
     DepartmentId = db.Column(db.Integer, db.ForeignKey('Department.Id'))
     CountryId = db.Column(db.Integer, db.ForeignKey('Country.Id'), nullable=True)

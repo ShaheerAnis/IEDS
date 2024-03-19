@@ -4,7 +4,11 @@ db = SQLAlchemy()
 
 # Import your models so that they are registered with the db instance
 from .admin_model import Admin
-# from .roles_model import Role
-# from .topic_model import Topic
-# from .resources_model import Resource
-# from .explanation_model import Explanation
+from .country_model import Country
+from .department_model import Department
+from .doctype_model import DocType
+from .document_model import Document
+from .organization_model import Organization
+from . report_model import Report
+from .staff_model import Staff
+from .student_model import Student
