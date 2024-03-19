@@ -20,7 +20,7 @@ app.config.from_object(Config)
     
 #app.config['SQLALCHEMY_DATABASE_URI'] = "mssql+pyodbc:///?odbc_connect=DRIVER%3D%7BSQL+Server+Native+Client+11.0%7D%3BServer%3DDESKTOP-EN20RGA%5CSQLEXPRESS%3BDatabase%3DAliMadad%3BTrusted_Connection%3Dyes%3BPort%3D1433"
 #app.config['SQLALCHEMY_DATABASE_URI'] = "mssql+pyodbc://' + DESKTOP-EN20RGA + '/' + AliMadad + '?trusted_connection=yes&driver=ODBC+Driver+13+for+SQL+Server"
-app.config['SQLALCHEMY_DATABASE_URI'] = "mssql+pyodbc:///?odbc_connect=DRIVER%3D%7BODBC+Driver+17+for+SQL+Server%7D%3BServer%3DDESKTOP-EN20RGA%5CSQLEXPRESS%3BDatabase%3DAliMadad%3BTrusted_Connection%3Dyes%3BPort%3D1433"
+#app.config['SQLALCHEMY_DATABASE_URI'] = "mssql+pyodbc:///?odbc_connect=DRIVER%3D%7BODBC+Driver+17+for+SQL+Server%7D%3BServer%3DDESKTOP-EN20RGA%5CSQLEXPRESS%3BDatabase%3DAliMadad%3BTrusted_Connection%3Dyes%3BPort%3D1433"
 
 
 
