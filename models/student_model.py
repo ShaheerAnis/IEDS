@@ -20,6 +20,7 @@ class Student(db.Model):
     OrganiztionId = db.Column(db.Integer, db.ForeignKey('Organiztion.Id'))
     DepartmentId = db.Column(db.Integer, db.ForeignKey('Department.Id'))
     CountryId = db.Column(db.Integer, db.ForeignKey('Country.Id'), nullable=True)
+    Deleted = db.Column(db.Boolean)
     
     
     def __repr__(self):

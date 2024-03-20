@@ -5,6 +5,7 @@ class Country(db.Model):
     
     Id = db.Column(db.Integer, primary_key=True)
     Name = db.Column(db.String(100))
+    Deleted = db.Column(db.Boolean)
     
     
     def __repr__(self):

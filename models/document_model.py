@@ -11,6 +11,7 @@ class Document(db.Model):
     Status = db.Column(db.Boolean)
     TypeId = db.Column(db.Integer, db.ForeignKey('DocTopic.Id'))
     StudentId = db.Column(db.Integer, db.ForeignKey('Student.Id'))
+    Deleted = db.Column(db.Boolean)
     
     def __repr__(self):
         return f"<Document(Id={self.Id}, Name='{self.Name}')>"

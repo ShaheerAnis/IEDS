@@ -7,6 +7,7 @@ class Report(db.Model):
     Discription = db.Column(db.String(500))
     StaffId = db.Column(db.Integer, db.ForeignKey('Staff.Id'))
     StudentId = db.Column(db.Integer, db.ForeignKey('Student.Id'))
+    Deleted = db.Column(db.Boolean)
     
     def __repr__(self):
         return f"<Report(Id={self.Id}, Discription='{self.Discription}')>"
