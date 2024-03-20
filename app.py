@@ -8,7 +8,7 @@ from flask_session import Session
 from sqlalchemy import inspect
 # from blueprints.user.user import user_bp
 # from blueprints.roles.role import role_bp
-# from blueprints.admin.admin import admin_bp
+from blueprints.admin.admin import admin_bp
 # from blueprints.contributor.contributor import contributor_bp
 
 app = Flask(__name__)
@@ -50,42 +50,42 @@ mail.init_app(app)
 
 # app.register_blueprint(user_bp) 
 # app.register_blueprint(role_bp, url_prefix="/role")
-# app.register_blueprint(admin_bp, url_prefix="/admin")
+app.register_blueprint(admin_bp, url_prefix="/admin")
 # app.register_blueprint(contributor_bp, url_prefix="/contributor")
 
 db.init_app(app)
 
-@app.route('/')
-def adminIndex():
-# Test database connection
-    try:
-        inspector = inspect(db.engine)
-        if 'Admin' in inspector.get_table_names():
-            print("Admin table exists.")
-        else:
-            print("Admin table does not exist.")
-    except Exception as e:
-        print("Error occurred while testing database connection:", e)
+# @app.route('/')
+# def adminIndex():
+# # Test database connection
+#     try:
+#         inspector = inspect(db.engine)
+#         if 'Admin' in inspector.get_table_names():
+#             print("Admin table exists.")
+#         else:
+#             print("Admin table does not exist.")
+#     except Exception as e:
+#         print("Error occurred while testing database connection:", e)
     
-    # Add an admin to the database
-    try:
-        # Assuming you're receiving admin details via a POST request, adjust accordingly
-        admin_data = {
-            "Name": "Admin Name",
-            "Email": "admin@example.com",
-            "Username": "admin_username",
-            "Password": "admin_password",
-            "ContactNumber": "00000000000"
-        }
+#     # Add an admin to the database
+#     try:
+#         # Assuming you're receiving admin details via a POST request, adjust accordingly
+#         admin_data = {
+#             "Name": "Admin Name",
+#             "Email": "admin@example.com",
+#             "Username": "admin_username",
+#             "Password": "admin_password",
+#             "ContactNumber": "00000000000"
+#         }
         
-        new_admin = Admin(**admin_data)
-        db.session.add(new_admin)
-        db.session.commit()
+#         new_admin = Admin(**admin_data)
+#         db.session.add(new_admin)
+#         db.session.commit()
         
-        print("Admin added successfully.")
-    except Exception as e:
-        db.session.rollback()  # Rollback the session in case of any error
-        print("Error occurred while adding admin to the database:", e)
+#         print("Admin added successfully.")
+#     except Exception as e:
+#         db.session.rollback()  # Rollback the session in case of any error
+#         print("Error occurred while adding admin to the database:", e)
     
 if __name__ =="__main__":
     app.run(debug=True)

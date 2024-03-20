@@ -708,3 +708,326 @@
 2024-03-20 04:03:03,425 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 04:03:03] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
 2024-03-20 04:58:58,383 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\models\\report_model.py', reloading
 2024-03-20 04:58:58,706 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 04:59:01,557 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 04:59:01,566 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 05:00:53,991 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\admin\\admin.py', reloading
+2024-03-20 05:00:54,149 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 05:00:56,128 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 05:00:56,143 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 05:04:51,286 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\models\\__init__.py', reloading
+2024-03-20 05:04:51,444 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 05:04:53,866 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 05:04:53,879 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 05:05:23,635 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-20 05:05:23,636 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-20 05:05:23,638 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 05:05:25,666 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 05:05:25,774 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 05:05:30,678 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:05:30] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-03-20 05:05:30,971 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:05:30] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-20 05:05:30,978 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:05:30] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-20 05:05:31,006 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:05:31] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 05:05:31,064 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:05:31] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 05:08:57,626 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\admin\\admin.py', reloading
+2024-03-20 05:08:57,825 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 05:09:00,249 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 05:09:00,258 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 05:09:00,986 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:09:00] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-03-20 05:09:01,319 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:09:01] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-20 05:09:01,357 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:09:01] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-20 05:09:01,479 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:09:01] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 05:09:01,506 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:09:01] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 05:09:18,215 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-20 05:09:18,216 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-20 05:09:18,219 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 05:09:19,427 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 05:09:19,437 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 05:09:23,135 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:09:23] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-03-20 05:09:23,453 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:09:23] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-20 05:09:23,460 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:09:23] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-20 05:09:23,486 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:09:23] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 05:09:23,545 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:09:23] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 05:09:42,965 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:09:42] "[33mGET /admin/adminRegister HTTP/1.1[0m" 404 -
+2024-03-20 05:09:43,038 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:09:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-03-20 05:09:51,035 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:09:51] "[33mGET /admin/adminRegister/ HTTP/1.1[0m" 404 -
+2024-03-20 05:09:58,629 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:09:58] "[33mGET /admin HTTP/1.1[0m" 404 -
+2024-03-20 05:10:13,859 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:10:13] "[33mGET /adminRegister/admin HTTP/1.1[0m" 404 -
+2024-03-20 05:10:42,445 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\admin\\admin.py', reloading
+2024-03-20 05:10:42,674 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 05:10:44,461 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 05:10:44,470 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 05:10:45,188 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:10:45] "[33mGET /adminRegister/admin HTTP/1.1[0m" 404 -
+2024-03-20 05:10:45,644 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:10:45] "[33mGET /adminRegister/admin HTTP/1.1[0m" 404 -
+2024-03-20 05:10:55,500 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-20 05:10:55,501 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-20 05:10:55,504 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 05:10:56,796 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 05:10:56,805 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 05:10:58,169 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:10:58] "[33mGET /adminRegister/admin HTTP/1.1[0m" 404 -
+2024-03-20 05:11:05,567 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:11:05] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-03-20 05:11:05,791 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:11:05] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-20 05:11:05,798 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:11:05] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-20 05:11:05,819 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:11:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 05:11:33,812 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\admin\\admin.py', reloading
+2024-03-20 05:11:33,968 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 05:11:36,102 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 05:11:36,110 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 05:11:41,109 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-20 05:11:41,109 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-20 05:11:41,112 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 05:11:42,471 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 05:11:42,487 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 05:11:43,810 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:11:43] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-03-20 05:11:44,077 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:11:44] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-20 05:11:44,086 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:11:44] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-20 05:11:44,109 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:11:44] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 05:11:44,176 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:11:44] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 05:11:46,967 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:11:46] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-03-20 05:11:46,992 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:11:46] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-20 05:11:46,996 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:11:46] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-20 05:11:47,019 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:11:47] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 05:11:47,067 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:11:47] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 05:12:39,764 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\admin\\admin.py', reloading
+2024-03-20 05:12:39,984 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 05:12:41,918 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 05:12:41,932 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 05:12:46,745 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-20 05:12:46,745 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-20 05:12:46,748 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 05:12:48,181 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 05:12:48,189 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 05:12:55,422 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:12:55] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-03-20 05:12:55,756 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:12:55] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-20 05:12:55,762 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:12:55] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-20 05:12:55,869 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:12:55] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 05:13:13,581 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:13:13] "[33mGET /adminRegister HTTP/1.1[0m" 404 -
+2024-03-20 05:13:19,511 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:13:19] "[33mGET /adminRegister/admin HTTP/1.1[0m" 404 -
+2024-03-20 05:13:27,307 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:13:27] "[33mGET /admin/adminRegister HTTP/1.1[0m" 404 -
+2024-03-20 05:14:17,947 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\admin\\admin.py', reloading
+2024-03-20 05:14:18,126 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 05:14:20,091 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 05:14:20,103 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 05:14:51,910 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\models\\__init__.py', reloading
+2024-03-20 05:14:52,098 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 05:14:53,664 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 05:14:53,679 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 05:19:01,560 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\admin\\admin.py', reloading
+2024-03-20 05:19:01,711 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 05:19:03,108 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 05:19:03,117 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 05:21:35,010 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\admin\\admin.py', reloading
+2024-03-20 05:21:35,294 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 05:21:37,875 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 05:21:37,894 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 05:22:07,937 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\app.py', reloading
+2024-03-20 05:22:08,101 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 05:32:49,474 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-20 05:32:49,475 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-20 05:32:49,480 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 05:32:51,225 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 05:32:51,248 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 05:32:54,689 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:32:54] "GET /admin/adminRegister HTTP/1.1" 200 -
+2024-03-20 05:34:05,406 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:34:05] "GET /admin/adminRegister HTTP/1.1" 200 -
+2024-03-20 05:35:41,708 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\admin\\admin.py', reloading
+2024-03-20 05:35:42,256 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 05:35:45,054 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 05:35:45,071 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 05:36:27,123 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\admin\\admin.py', reloading
+2024-03-20 05:36:27,317 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 05:36:29,776 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 05:36:29,788 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 05:36:31,251 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:36:31] "GET /admin/adminRegister HTTP/1.1" 200 -
+2024-03-20 05:37:19,492 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:37:19] "GET /admin/adminRegister HTTP/1.1" 200 -
+2024-03-20 05:37:35,909 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:37:35] "[35m[1mPOST /admin/adminRegister HTTP/1.1[0m" 500 -
+2024-03-20 05:37:36,223 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:37:36] "GET /admin/adminRegister?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-03-20 05:37:36,225 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:37:36] "GET /admin/adminRegister?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-03-20 05:37:36,320 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:37:36] "GET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-03-20 05:37:36,443 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:37:36] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 05:38:35,875 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\admin\\admin.py', reloading
+2024-03-20 05:38:36,115 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 05:38:39,432 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 05:38:39,444 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 05:38:40,897 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:38:40] "[35m[1mPOST /admin/adminRegister HTTP/1.1[0m" 500 -
+2024-03-20 05:38:41,266 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:38:41] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-20 05:38:41,272 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:38:41] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-20 05:38:41,319 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:38:41] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 05:38:41,417 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:38:41] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 05:39:12,861 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\admin\\admin.py', reloading
+2024-03-20 05:39:13,143 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 05:39:16,872 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 05:39:16,897 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 05:39:17,955 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:39:17] "[35m[1mPOST /admin/adminRegister HTTP/1.1[0m" 500 -
+2024-03-20 05:39:18,300 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:39:18] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-20 05:39:18,315 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:39:18] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-20 05:39:18,360 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:39:18] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 05:39:18,461 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:39:18] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 05:39:58,891 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\admin\\admin.py', reloading
+2024-03-20 05:39:59,151 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 05:40:02,219 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 05:40:02,228 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 05:40:04,485 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:40:04] "[35m[1mPOST /admin/adminRegister HTTP/1.1[0m" 500 -
+2024-03-20 05:40:04,746 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:40:04] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-20 05:40:04,769 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:40:04] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-20 05:40:04,841 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:40:04] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 05:40:05,033 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:40:05] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 05:41:09,240 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\models\\admin_model.py', reloading
+2024-03-20 05:41:10,253 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 05:41:12,457 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 05:41:12,468 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 05:41:14,085 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:41:14] "[35m[1mPOST /admin/adminRegister HTTP/1.1[0m" 500 -
+2024-03-20 05:41:14,351 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:41:14] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-20 05:41:14,362 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:41:14] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-20 05:41:14,431 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:41:14] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 05:41:14,651 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:41:14] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 05:41:39,497 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-20 05:41:39,498 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-20 05:41:39,502 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 05:41:41,260 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 05:41:41,270 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 05:41:44,551 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:41:44] "[35m[1mPOST /admin/adminRegister HTTP/1.1[0m" 500 -
+2024-03-20 05:41:44,840 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:41:44] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-20 05:41:44,842 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:41:44] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-20 05:41:44,898 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:41:44] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 05:41:45,071 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:41:45] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 05:41:48,793 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:41:48] "GET /admin/adminRegister HTTP/1.1" 200 -
+2024-03-20 05:42:10,975 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:42:10] "[35m[1mPOST /admin/adminRegister HTTP/1.1[0m" 500 -
+2024-03-20 05:42:11,010 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:42:11] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-20 05:42:11,035 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:42:11] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-20 05:42:11,102 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:42:11] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 05:42:11,354 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:42:11] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 05:42:45,105 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\models\\admin_model.py', reloading
+2024-03-20 05:42:45,314 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 05:42:48,051 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 05:42:48,060 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 05:42:49,226 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\admin\\admin.py', reloading
+2024-03-20 05:42:49,398 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 05:42:50,836 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 05:42:50,844 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 05:46:24,073 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\models\\admin_model.py', reloading
+2024-03-20 05:46:24,244 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 05:46:27,186 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 05:46:27,208 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 05:46:35,333 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-20 05:46:35,334 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-20 05:46:35,338 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 05:46:37,571 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 05:46:37,587 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 05:46:42,352 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:46:42] "GET /admin/adminRegister HTTP/1.1" 200 -
+2024-03-20 05:47:20,571 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:47:20] "[35m[1mPOST /admin/adminRegister HTTP/1.1[0m" 500 -
+2024-03-20 05:47:20,853 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:47:20] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-20 05:47:20,890 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:47:20] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-20 05:47:20,940 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:47:20] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 05:47:21,071 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:47:21] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 05:47:32,873 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:47:32] "GET /admin/adminRegister HTTP/1.1" 200 -
+2024-03-20 05:48:07,862 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:48:07] "[35m[1mPOST /admin/adminRegister HTTP/1.1[0m" 500 -
+2024-03-20 05:48:07,911 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:48:07] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-20 05:48:07,915 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:48:07] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-20 05:48:07,955 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:48:07] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 05:48:08,094 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:48:08] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 05:48:51,247 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\admin\\admin.py', reloading
+2024-03-20 05:48:51,422 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 05:48:54,569 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 05:48:54,579 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 05:48:56,929 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:48:56] "GET /admin/adminRegister HTTP/1.1" 200 -
+2024-03-20 05:49:08,523 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:49:08] "[35m[1mPOST /admin/adminRegister HTTP/1.1[0m" 500 -
+2024-03-20 05:49:08,795 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:49:08] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-20 05:49:08,800 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:49:08] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-20 05:49:08,833 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:49:08] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 05:49:08,920 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:49:08] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 05:50:44,949 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\admin\\admin.py', reloading
+2024-03-20 05:50:45,126 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 05:50:47,467 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 05:50:47,480 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 05:50:59,906 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:50:59] "[32mPOST /admin/adminRegister HTTP/1.1[0m" 302 -
+2024-03-20 05:50:59,919 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:50:59] "GET /admin/adminRegister HTTP/1.1" 200 -
+2024-03-20 05:51:31,333 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:51:31] "[35m[1mPOST /admin/adminRegister HTTP/1.1[0m" 500 -
+2024-03-20 05:51:31,648 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:51:31] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-20 05:51:31,650 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:51:31] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-20 05:51:31,714 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:51:31] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 05:51:31,884 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:51:31] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 05:52:35,290 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\admin\\admin.py', reloading
+2024-03-20 05:52:35,509 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 05:52:38,646 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 05:52:38,656 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 05:52:40,834 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:52:40] "GET /admin/adminRegister HTTP/1.1" 200 -
+2024-03-20 05:52:53,895 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 05:52:53] "POST /admin/adminRegister HTTP/1.1" 200 -
+2024-03-20 06:09:14,307 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\admin\\admin.py', reloading
+2024-03-20 06:09:14,483 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 06:09:16,211 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 06:09:16,221 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 06:09:21,573 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 06:09:21] "[32mPOST /admin/adminRegister HTTP/1.1[0m" 302 -
+2024-03-20 06:09:21,586 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 06:09:21] "GET /admin/adminRegister HTTP/1.1" 200 -
+2024-03-20 06:09:52,006 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 06:09:52] "POST /admin/adminRegister HTTP/1.1" 200 -
+2024-03-20 06:10:53,480 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\admin\\admin.py', reloading
+2024-03-20 06:10:53,670 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 06:10:55,417 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 06:10:55,424 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 06:10:57,102 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 06:10:57] "[32mPOST /admin/adminRegister HTTP/1.1[0m" 302 -
+2024-03-20 06:10:57,113 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 06:10:57] "GET /admin/adminRegister HTTP/1.1" 200 -
+2024-03-20 06:11:19,523 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 06:11:19] "[32mPOST /admin/adminRegister HTTP/1.1[0m" 302 -
+2024-03-20 06:11:19,542 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 06:11:19] "GET /admin/adminLogin HTTP/1.1" 200 -
+2024-03-20 06:11:30,593 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 06:11:30] "[35m[1mPOST /admin/adminLogin HTTP/1.1[0m" 500 -
+2024-03-20 06:11:30,854 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 06:11:30] "GET /admin/adminLogin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-03-20 06:11:30,859 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 06:11:30] "GET /admin/adminLogin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-03-20 06:11:30,885 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 06:11:30] "GET /admin/adminLogin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-03-20 06:11:30,942 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 06:11:30] "[36mGET /admin/adminLogin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 06:12:15,754 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\admin\\admin.py', reloading
+2024-03-20 06:12:15,948 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 06:12:17,771 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 06:12:17,784 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 06:12:40,089 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\admin\\admin.py', reloading
+2024-03-20 06:12:40,243 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 06:12:41,587 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 06:12:41,605 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 06:12:42,920 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\admin\\admin.py', reloading
+2024-03-20 06:12:43,123 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 06:12:44,712 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 06:12:44,721 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 06:12:46,301 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 06:12:46] "[35m[1mPOST /admin/adminLogin HTTP/1.1[0m" 500 -
+2024-03-20 06:12:46,578 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 06:12:46] "[36mGET /admin/adminLogin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-20 06:12:46,579 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 06:12:46] "[36mGET /admin/adminLogin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-20 06:12:46,610 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 06:12:46] "[36mGET /admin/adminLogin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 06:12:46,678 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 06:12:46] "[36mGET /admin/adminLogin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 06:13:10,163 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\admin\\admin.py', reloading
+2024-03-20 06:13:10,338 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 06:13:12,082 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 06:13:12,090 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 06:13:14,119 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 06:13:14] "[32mPOST /admin/adminLogin HTTP/1.1[0m" 302 -
+2024-03-20 06:13:14,130 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 06:13:14] "GET /admin/adminRegister HTTP/1.1" 200 -
+2024-03-20 06:13:40,681 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 06:13:40] "[32mPOST /admin/adminRegister HTTP/1.1[0m" 302 -
+2024-03-20 06:13:40,692 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 06:13:40] "GET /admin/adminLogin HTTP/1.1" 200 -
+2024-03-20 06:13:47,940 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 06:13:47] "[32mPOST /admin/adminLogin HTTP/1.1[0m" 302 -
+2024-03-20 06:13:47,949 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 06:13:47] "GET /admin/adminLogin HTTP/1.1" 200 -
+2024-03-20 06:14:05,273 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 06:14:05] "[32mPOST /admin/adminLogin HTTP/1.1[0m" 302 -
+2024-03-20 06:14:05,282 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 06:14:05] "GET /admin/adminLogin HTTP/1.1" 200 -
+2024-03-20 06:14:13,468 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 06:14:13] "[32mPOST /admin/adminLogin HTTP/1.1[0m" 302 -
+2024-03-20 06:14:13,476 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 06:14:13] "GET /admin/adminLogin HTTP/1.1" 200 -
+2024-03-20 06:14:33,779 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\admin\\admin.py', reloading
+2024-03-20 06:14:33,939 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 06:14:35,597 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 06:14:35,605 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 06:14:36,797 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 06:14:36] "GET /admin/adminLogin HTTP/1.1" 200 -
+2024-03-20 06:14:38,741 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 06:14:38] "GET /admin/adminLogin HTTP/1.1" 200 -
+2024-03-20 06:14:44,639 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 06:14:44] "[32mPOST /admin/adminLogin HTTP/1.1[0m" 302 -
+2024-03-20 06:14:44,648 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 06:14:44] "GET /admin/adminRegister HTTP/1.1" 200 -
+2024-03-20 06:59:33,496 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\admin\\admin.py', reloading
+2024-03-20 06:59:33,691 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 06:59:35,648 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 06:59:35,656 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 06:59:37,787 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 06:59:37] "GET /admin/adminRegister HTTP/1.1" 200 -
+2024-03-20 07:00:05,223 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 07:00:05] "[32mPOST /admin/adminRegister HTTP/1.1[0m" 302 -
+2024-03-20 07:00:05,235 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 07:00:05] "GET /admin/adminLogin HTTP/1.1" 200 -
+2024-03-20 07:00:12,834 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 07:00:12] "POST /admin/adminLogin HTTP/1.1" 200 -
+2024-03-20 07:00:22,134 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 07:00:22] "[33mGET /staff HTTP/1.1[0m" 404 -
+2024-03-20 07:00:25,375 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 07:00:25] "GET /admin/adminLogin HTTP/1.1" 200 -
+2024-03-20 07:00:33,051 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 07:00:33] "POST /admin/adminLogin HTTP/1.1" 200 -
+2024-03-20 07:02:06,165 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\admin\\admin.py', reloading
+2024-03-20 07:02:06,338 - werkzeug - INFO -  * Restarting with stat
