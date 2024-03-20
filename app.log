@@ -695,3 +695,16 @@
 2024-03-20 04:02:44,321 - werkzeug - INFO -  * Restarting with stat
 2024-03-20 04:02:47,996 - werkzeug - WARNING -  * Debugger is active!
 2024-03-20 04:02:48,014 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 04:02:54,791 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-20 04:02:54,792 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-20 04:02:54,794 - werkzeug - INFO -  * Restarting with stat
+2024-03-20 04:02:56,204 - werkzeug - WARNING -  * Debugger is active!
+2024-03-20 04:02:56,214 - werkzeug - INFO -  * Debugger PIN: 126-013-830
+2024-03-20 04:03:02,980 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 04:03:02] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-03-20 04:03:03,313 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 04:03:03] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-20 04:03:03,316 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 04:03:03] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-20 04:03:03,354 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 04:03:03] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 04:03:03,425 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2024 04:03:03] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-20 04:58:58,383 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\models\\report_model.py', reloading
+2024-03-20 04:58:58,706 - werkzeug - INFO -  * Restarting with stat
