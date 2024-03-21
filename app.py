@@ -7,7 +7,7 @@ from flask_mail import Mail
 from flask_session import Session
 from sqlalchemy import inspect
 # from blueprints.user.user import user_bp
-# from blueprints.roles.role import role_bp
+from blueprints.student.student import student_bp
 from blueprints.admin.admin import admin_bp
 # from blueprints.contributor.contributor import contributor_bp
 
@@ -49,7 +49,7 @@ mail.init_app(app)
     
 
 # app.register_blueprint(user_bp) 
-# app.register_blueprint(role_bp, url_prefix="/role")
+app.register_blueprint(student_bp, url_prefix="/student")
 app.register_blueprint(admin_bp, url_prefix="/admin")
 # app.register_blueprint(contributor_bp, url_prefix="/contributor")
 

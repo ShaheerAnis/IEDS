@@ -9,9 +9,9 @@ class Document(db.Model):
     UploadDate = db.Column(db.DateTime)
     FileLocation = db.Column(db.String(500))
     Status = db.Column(db.Boolean)
-    TypeId = db.Column(db.Integer, db.ForeignKey('DocTopic.Id'))
+    TypeId = db.Column(db.Integer, db.ForeignKey('DocType.Id'))
     StudentId = db.Column(db.Integer, db.ForeignKey('Student.Id'))
-    Deleted = db.Column(db.Boolean)
+    Deleted = db.Column(db.Boolean, nullable=True)
     
     def __repr__(self):
         return f"<Document(Id={self.Id}, Name='{self.Name}')>"

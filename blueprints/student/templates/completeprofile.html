@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Complete Profile</title>
+  </head>
+  <body>
+    <h1>Complete Your Profile</h1>
+    <form method="POST" enctype="multipart/form-data">
+      <label for="countryid">Country:</label><br />
+      <select id="countryid" name="countryid">
+        {% for c in country %}
+        <option value="{{ c.Id }}">{{ c.Name }}</option>
+        {% endfor %}</select
+      ><br />
+
+      <label for="visaid">Visa ID:</label><br />
+      <input type="text" id="visaid" name="visaid" /><br />
+
+      <label for="passportnumber">Passport Number:</label><br />
+      <input type="text" id="passportnumber" name="passportnumber" /><br />
+
+      <label for="fathername">Father's Name:</label><br />
+      <input type="text" id="fathername" name="fathername" /><br />
+
+      <label for="nicnumber">NIC Number:</label><br />
+      <input type="text" id="nicnumber" name="nicnumber" /><br />
+
+      <label for="semester">Semester:</label><br />
+      <input type="text" id="semester" name="semester" /><br />
+
+      <label for="address">Address:</label><br />
+      <input type="text" id="address" name="address" /><br />
+
+      <label for="file">Upload Bonify File .pdf only:</label><br />
+      <input type="file" id="file" name="file" /><br />
+      <!-- File input field -->
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

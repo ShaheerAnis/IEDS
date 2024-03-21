@@ -114,6 +114,8 @@ def adminLogin():
             session.clear()
             session['admin_user_id'] = user.Id
             session['admin_username'] = user.Username
+            session['student_user_id'] = None
+            session['student_username'] = None
 
             if remember_me:
                 session.permanent = True
