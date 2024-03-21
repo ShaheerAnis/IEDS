@@ -151,7 +151,6 @@ def studentLogin():
     
 
 
-UPLOAD_FOLDER = 'uploads'
 ALLOWED_EXTENSIONS = {'pdf'}
 
 def allowed_file(filename):
