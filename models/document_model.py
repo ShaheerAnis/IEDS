@@ -12,6 +12,7 @@ class Document(db.Model):
     TypeId = db.Column(db.Integer, db.ForeignKey('DocType.Id'))
     StudentId = db.Column(db.Integer, db.ForeignKey('Student.Id'))
     Deleted = db.Column(db.Boolean, nullable=True)
+    Applied = db.Column(db.Boolean, nullable=True)
     
     def __repr__(self):
         return f"<Document(Id={self.Id}, Name='{self.Name}')>"

@@ -1,0 +1,212 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organization Management</title>
+    <style>
+        /* Add your custom CSS styles here */
+    </style>
+</head>
+<body> -->
+    <!-- <h1>Organization Management</h1> -->
+    
+    <!-- Form to add a new student -->
+    <!-- <h2>Add Organization</h2>
+    <form method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br> -->
+       
+        <!-- <label for="email">Email:</label>
+        <input type="email" id="email" name="Email" required><br><br>
+        <label for="password">Password:</label>
+        <input type="text" id="password" name="Password" required><br><br>
+        <label for="visaid">VisaID:</label>
+        <input type="number" id="visaid" name="VisaID" required><br><br>
+        <label for="passportnumber">PassportNumber:</label>
+        <input type="number" id="passportnumber" name="PassportNumber" required><br><br>
+        <label for="fathername">FatherName:</label>
+        <input type="text" id="fathername" name="FatherName" required><br><br>
+        <label for="nicnumber">NICNumber:</label>
+        <input type="number" id="nicnumber" name="NICNumber" required><br><br>
+
+        <label for="fathername">FatherName:</label>
+        <input type="text" id="fathername" name="FatherName" required><br><br>
+        <label for="nicnumber">NICNumber:</label>
+        <input type="number" id="nicnumber" name="NICNumber" required><br><br> -->
+
+        <!-- <button type="submit">Add Organization</button> -->
+
+
+
+        <!-- ContactNumber = db.Column(db.String(50), nullable=True)
+        UniRegistrationNumber = db.Column(db.String(50), nullable=True)
+        Address = db.Column(db.String(200), nullable=True)
+        PlaceOfBirth = db.Column(db.DateTime, nullable=True)
+        Semester = db.Column(db.Integer, nullable=True)
+        OrganiztionId = db.Column(db.Integer, db.ForeignKey('Organiztion.Id'))
+        DepartmentId = db.Column(db.Integer, db.ForeignKey('Department.Id'))
+        CountryId = db.Column(db.Integer, db.ForeignKey('Country.Id'), nullable=True)
+        Deleted = db.Column(db.Boolean) -->
+
+
+
+
+
+
+
+
+    <!-- </form> -->
+
+    <!-- Form to delete a student -->
+    <!-- <h2>Delete Organization</h2>
+    <form method="POST">
+        <label for="organization">Organization ID:</label>
+        <input type="text" id="organization_id" name="organization_id" required><br><br>
+        <button type="submit">Delete Organization</button>
+    </form> -->
+
+    <!-- Form to restore a deleted student -->
+    <!-- <h2>Restore Organization</h2>
+    <form method="POST">
+        <label for="deleted_organization_id">Deleted Organization ID:</label>
+        <input type="text" id="deleted_organization_id" name="deleted_organization_id" required><br><br>
+        <button type="submit">Restore Student</button>
+    </form> -->
+
+    <!-- Table to display list of all students
+    <h2>List of Organization</h2>
+    <table >
+        <tr>
+            <th>Student ID</th>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        {% for student in students %}
+        <tr>
+            <td>{{ student.Id }}</td>
+            <td>{{ student.Name }}</td>
+           
+        </tr>
+        {% endfor %}
+    </table> -->
+<!-- </body>
+</html> -->
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Organization List</title>
+</head>
+<body>
+  <div class="container mt-4">
+    <form method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+      <button type="submit">Add Organization</button>
+    </form>
+    <h1>Organization List</h1>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Delete</th>
+          <th>Store</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for organization in organizations %}
+        <tr>
+          <td>{{ organization.Name }}</td>
+          <td>
+            <form action="{{ url_for('admin.deleteOrg', organization_id=organization.Id) }}">
+              <button type="submit" class="btn btn-danger">Delete</button>
+            </form>
+          </td>
+          <td>
+            <form action="{{ url_for('admin.restoreOrg', organization_id=organization.Id) }}">
+              <button type="submit" class="btn btn-primary">Restore</button>
+            </form>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Organization List</title>
+</head>
+<body>
+  <div class="container mt-4">
+    <form method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+      <button type="submit">Add Organization</button>
+    </form>
+    {% if organizations %}
+    <h1>Organization List</h1>
+    <h2>Active Organizations</h2>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Delete</th>
+          <th>Store</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for organization in organizations %}
+        {% if not organization.Deleted %}
+        <tr>
+          <td>{{ organization.Name }}</td>
+          <td>
+            <form action="{{ url_for('admin.deleteOrg', organization_id=organization.Id) }}">
+              <button type="submit" class="btn btn-danger">Delete</button>
+            </form>
+          </td>
+        </tr>
+        {% endif %}
+        {% endfor %}
+      </tbody>
+    </table>
+
+    <h2>Deleted Organizations</h2>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Name</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for organization in organizations %}
+        {% if organization.Deleted %}
+        <tr>
+          <td>{{ organization.Name }}</td>
+          <td>
+            <form action="{{ url_for('admin.restoreOrg', organization_id=organization.Id) }}">
+              <button type="submit" class="btn btn-primary">Restore</button>
+            </form>
+          </td>
+        </tr>
+        {% endif %}
+        {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+    <p>No organizations found.</p>
+    {% endif %}
+  </div>
+</body>
+</html>

@@ -21,7 +21,7 @@ class Student(db.Model):
     DepartmentId = db.Column(db.Integer, db.ForeignKey('Department.Id'), nullable=True)
     CountryId = db.Column(db.Integer, db.ForeignKey('Country.Id'), nullable=True)
     Deleted = db.Column(db.Boolean, nullable=True)
-    
+    SentVisa  = db.Column(db.Boolean, nullable=True)
     
     def __repr__(self):
         return f"<Student(Id={self.Id}, Discription='{self.Name}')>"

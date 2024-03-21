@@ -2179,3 +2179,607 @@
 2024-03-21 16:20:07,063 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 16:20:07] "GET /student/completeProfile HTTP/1.1" 200 -
 2024-03-21 16:21:06,127 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 16:21:06] "GET /student/completeProfile HTTP/1.1" 200 -
 2024-03-21 16:21:12,588 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 16:21:12] "POST /student/completeProfile HTTP/1.1" 200 -
+2024-03-21 17:44:48,290 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-21 17:44:48,290 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-21 17:44:48,305 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 17:44:49,227 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 17:44:49,227 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 17:44:56,547 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 17:44:56] "GET /student/FindFriends HTTP/1.1" 200 -
+2024-03-21 17:45:56,446 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 17:45:56] "GET /student/FindFriends HTTP/1.1" 200 -
+2024-03-21 17:46:21,499 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 17:46:21] "GET /student/FindFriends HTTP/1.1" 200 -
+2024-03-21 17:46:23,594 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 17:46:23] "GET /student/FindFriends HTTP/1.1" 200 -
+2024-03-21 17:46:23,766 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 17:46:23] "GET /student/FindFriends HTTP/1.1" 200 -
+2024-03-21 17:46:23,954 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 17:46:23] "GET /student/FindFriends HTTP/1.1" 200 -
+2024-03-21 17:46:24,346 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 17:46:24] "GET /student/FindFriends HTTP/1.1" 200 -
+2024-03-21 17:46:58,609 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 17:46:58] "GET /student/FindFriends HTTP/1.1" 200 -
+2024-03-21 17:46:59,104 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 17:46:59] "GET /student/FindFriends HTTP/1.1" 200 -
+2024-03-21 17:46:59,292 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 17:46:59] "GET /student/FindFriends HTTP/1.1" 200 -
+2024-03-21 17:48:36,180 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 17:48:36] "GET /student/FindFriends HTTP/1.1" 200 -
+2024-03-21 17:49:21,546 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-21 17:49:21,696 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 17:49:22,723 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 17:49:22,739 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 17:49:24,480 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 17:49:24] "GET /student/FindFriends HTTP/1.1" 200 -
+2024-03-21 17:49:24,917 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 17:49:24] "GET /student/FindFriends HTTP/1.1" 200 -
+2024-03-21 20:08:00,552 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\admin\\admin.py', reloading
+2024-03-21 20:08:00,737 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 20:08:02,962 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 20:08:02,973 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 20:08:18,764 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-21 20:08:18,764 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-21 20:08:18,764 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 20:08:19,833 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 20:08:19,844 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 20:09:00,423 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:09:00] "GET /admin/adminRegister HTTP/1.1" 200 -
+2024-03-21 20:10:33,351 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\admin\\admin.py', reloading
+2024-03-21 20:10:33,502 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 20:10:35,029 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 20:10:35,044 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 20:10:38,391 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:10:38] "GET /admin/adminRegister HTTP/1.1" 200 -
+2024-03-21 20:10:43,946 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:10:43] "[35m[1mPOST /admin/adminRegister HTTP/1.1[0m" 500 -
+2024-03-21 20:10:44,086 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:10:44] "GET /admin/adminRegister?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-03-21 20:10:44,102 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:10:44] "GET /admin/adminRegister?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-03-21 20:10:44,149 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:10:44] "GET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-03-21 20:10:44,227 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:10:44] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-21 20:11:12,487 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\admin\\admin.py', reloading
+2024-03-21 20:11:12,628 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 20:11:20,473 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-21 20:11:20,473 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-21 20:11:20,473 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 20:11:21,394 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 20:11:21,394 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 20:11:22,685 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:11:22] "GET /admin/adminRegister HTTP/1.1" 200 -
+2024-03-21 20:11:23,341 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:11:23] "GET /admin/adminRegister HTTP/1.1" 200 -
+2024-03-21 20:11:28,786 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:11:28] "[35m[1mPOST /admin/adminRegister HTTP/1.1[0m" 500 -
+2024-03-21 20:11:28,896 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:11:28] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-21 20:11:28,896 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:11:28] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-21 20:11:28,943 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:11:28] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-21 20:11:29,021 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:11:29] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-21 20:12:51,760 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\admin\\admin.py', reloading
+2024-03-21 20:12:51,918 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 20:12:52,822 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 20:12:52,822 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 20:13:22,456 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-21 20:13:22,456 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-21 20:13:22,456 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 20:13:23,376 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 20:13:23,376 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 20:13:27,466 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:13:27] "GET /admin/adminRegister HTTP/1.1" 200 -
+2024-03-21 20:13:28,180 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:13:28] "GET /admin/adminRegister HTTP/1.1" 200 -
+2024-03-21 20:13:28,659 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:13:28] "GET /admin/adminRegister HTTP/1.1" 200 -
+2024-03-21 20:13:28,831 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:13:28] "GET /admin/adminRegister HTTP/1.1" 200 -
+2024-03-21 20:13:33,657 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:13:33] "[35m[1mPOST /admin/adminRegister HTTP/1.1[0m" 500 -
+2024-03-21 20:13:33,767 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:13:33] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-21 20:13:33,767 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:13:33] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-21 20:13:33,798 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:13:33] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-21 20:13:33,860 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:13:33] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-21 20:14:17,799 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:14:17] "[33mGET /admin/OrganizationList HTTP/1.1[0m" 404 -
+2024-03-21 20:14:28,032 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:14:28] "GET /admin/organization HTTP/1.1" 200 -
+2024-03-21 20:14:33,073 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:14:33] "[33mGET /admin/OrganizationList HTTP/1.1[0m" 404 -
+2024-03-21 20:14:37,128 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:14:37] "[33mGET /admin/OrganizationList HTTP/1.1[0m" 404 -
+2024-03-21 20:14:37,312 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:14:37] "GET /admin/organization HTTP/1.1" 200 -
+2024-03-21 20:14:46,992 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:14:46] "[32mGET /admin/deleteOrg/7 HTTP/1.1[0m" 302 -
+2024-03-21 20:14:47,023 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:14:47] "GET /admin/organization HTTP/1.1" 200 -
+2024-03-21 20:14:48,947 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:14:48] "[32mGET /admin/restoreOrg/7 HTTP/1.1[0m" 302 -
+2024-03-21 20:14:48,963 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:14:48] "GET /admin/organization HTTP/1.1" 200 -
+2024-03-21 20:14:55,467 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:14:55] "[31m[1mPOST /admin/organization HTTP/1.1[0m" 405 -
+2024-03-21 20:14:57,461 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:14:57] "GET /admin/organization HTTP/1.1" 200 -
+2024-03-21 20:15:12,147 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:15:12] "GET /admin/add_organization HTTP/1.1" 200 -
+2024-03-21 20:15:15,349 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:15:15] "[32mPOST /admin/add_organization HTTP/1.1[0m" 302 -
+2024-03-21 20:15:15,349 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:15:15] "GET /admin/add_organization HTTP/1.1" 200 -
+2024-03-21 20:15:18,666 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:15:18] "GET /admin/organization HTTP/1.1" 200 -
+2024-03-21 20:15:20,415 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:15:20] "[32mGET /admin/deleteOrg/8 HTTP/1.1[0m" 302 -
+2024-03-21 20:15:20,431 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:15:20] "GET /admin/organization HTTP/1.1" 200 -
+2024-03-21 20:15:25,310 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:15:25] "GET /admin/adminRegister HTTP/1.1" 200 -
+2024-03-21 20:16:58,640 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\admin\\admin.py', reloading
+2024-03-21 20:16:58,790 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 20:16:59,930 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 20:16:59,946 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 20:17:01,304 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:17:01] "GET /admin/adminRegister HTTP/1.1" 200 -
+2024-03-21 20:17:05,445 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:17:05] "[35m[1mPOST /admin/adminRegister HTTP/1.1[0m" 500 -
+2024-03-21 20:17:05,570 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:17:05] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-21 20:17:05,586 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:17:05] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-21 20:17:05,617 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:17:05] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-21 20:17:05,664 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:17:05] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-21 20:17:23,171 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-21 20:17:23,171 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-21 20:17:23,171 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 20:17:24,343 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 20:17:24,343 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 20:17:26,348 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:17:26] "GET /admin/adminRegister HTTP/1.1" 200 -
+2024-03-21 20:17:27,192 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:17:27] "GET /admin/adminRegister HTTP/1.1" 200 -
+2024-03-21 20:17:31,579 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:17:31] "[35m[1mPOST /admin/adminRegister HTTP/1.1[0m" 500 -
+2024-03-21 20:17:31,678 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:17:31] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-21 20:17:31,740 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:17:31] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-21 20:17:31,772 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:17:31] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-21 20:17:31,834 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:17:31] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-21 20:19:00,756 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\admin\\admin.py', reloading
+2024-03-21 20:19:01,040 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 20:19:02,025 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 20:19:02,041 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 20:19:11,686 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-21 20:19:11,686 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-21 20:19:11,686 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 20:19:12,562 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 20:19:12,577 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 20:19:13,390 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:19:13] "GET /admin/adminRegister HTTP/1.1" 200 -
+2024-03-21 20:19:13,775 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:19:13] "GET /admin/adminRegister HTTP/1.1" 200 -
+2024-03-21 20:19:18,366 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:19:18] "[35m[1mPOST /admin/adminRegister HTTP/1.1[0m" 500 -
+2024-03-21 20:19:18,491 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:19:18] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-21 20:19:18,491 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:19:18] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-21 20:19:18,538 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:19:18] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-21 20:19:18,601 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:19:18] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-21 20:19:32,375 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\admin\\admin.py', reloading
+2024-03-21 20:19:32,531 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 20:19:33,668 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 20:19:33,684 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 20:19:41,326 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:19:41] "GET /admin/adminRegister HTTP/1.1" 200 -
+2024-03-21 20:20:07,444 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:20:07] "[35m[1mPOST /admin/adminRegister HTTP/1.1[0m" 500 -
+2024-03-21 20:20:07,553 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:20:07] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-21 20:20:07,569 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:20:07] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-21 20:20:07,600 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:20:07] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-21 20:20:07,694 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:20:07] "[36mGET /admin/adminRegister?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-21 20:21:18,715 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-21 20:21:18,715 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-21 20:21:18,715 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 20:21:19,684 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 20:21:19,700 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 20:21:19,778 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:21:19] "GET /admin/adminRegister HTTP/1.1" 200 -
+2024-03-21 20:21:25,707 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:21:25] "[32mPOST /admin/adminRegister HTTP/1.1[0m" 302 -
+2024-03-21 20:21:25,723 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:21:25] "GET /admin/adminLogin HTTP/1.1" 200 -
+2024-03-21 20:21:38,073 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:21:38] "[32mPOST /admin/adminLogin HTTP/1.1[0m" 302 -
+2024-03-21 20:21:38,089 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:21:38] "GET /admin/adminRegister HTTP/1.1" 200 -
+2024-03-21 20:22:37,985 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:22:37] "GET /admin/adminLogin HTTP/1.1" 200 -
+2024-03-21 20:22:41,302 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:22:41] "[32mPOST /admin/adminLogin HTTP/1.1[0m" 302 -
+2024-03-21 20:22:41,318 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:22:41] "GET /admin/adminRegister HTTP/1.1" 200 -
+2024-03-21 20:22:57,783 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:22:57] "[32mPOST /admin/adminRegister HTTP/1.1[0m" 302 -
+2024-03-21 20:22:57,798 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:22:57] "GET /admin/adminLogin HTTP/1.1" 200 -
+2024-03-21 20:23:05,080 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:23:05] "POST /admin/adminLogin HTTP/1.1" 200 -
+2024-03-21 20:23:09,602 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:23:09] "[33mGET /organization HTTP/1.1[0m" 404 -
+2024-03-21 20:23:20,363 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 20:23:20] "[33mGET /admin HTTP/1.1[0m" 404 -
+2024-03-21 22:50:11,975 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\admin\\admin.py', reloading
+2024-03-21 22:50:12,372 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 22:50:14,093 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 22:50:14,112 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 22:55:04,312 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 22:55:04] "[33mGET /student/student_dashboar HTTP/1.1[0m" 404 -
+2024-03-21 22:55:06,750 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 22:55:06] "[33mGET /student/student_dashboard HTTP/1.1[0m" 404 -
+2024-03-21 22:55:28,546 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-21 22:55:28,680 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 22:56:27,760 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-21 22:56:27,760 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-21 22:56:27,760 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 22:56:28,748 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 22:56:28,772 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 22:56:30,035 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 22:56:30] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-21 22:56:49,442 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 22:56:49] "[33mGET /country HTTP/1.1[0m" 404 -
+2024-03-21 22:57:16,798 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 22:57:16] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-21 22:57:18,076 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 22:57:18] "[33mGET /FindFriends HTTP/1.1[0m" 404 -
+2024-03-21 22:58:49,240 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 22:58:49] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-21 22:58:51,888 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 22:58:51] "[35m[1mGET /student/FindFriends HTTP/1.1[0m" 500 -
+2024-03-21 22:58:52,033 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 22:58:52] "GET /student/FindFriends?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-03-21 22:58:52,037 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 22:58:52] "GET /student/FindFriends?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-03-21 22:58:52,100 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 22:58:52] "GET /student/FindFriends?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-03-21 22:58:52,168 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 22:58:52] "[36mGET /student/FindFriends?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-21 22:59:26,680 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 22:59:26] "[35m[1mGET /student/FindFriends HTTP/1.1[0m" 500 -
+2024-03-21 22:59:26,700 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 22:59:26] "[36mGET /student/FindFriends?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-21 22:59:26,707 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 22:59:26] "[36mGET /student/FindFriends?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-21 22:59:26,719 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 22:59:26] "[36mGET /student/FindFriends?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-21 22:59:30,644 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 22:59:30] "[35m[1mGET /student/FindFriends HTTP/1.1[0m" 500 -
+2024-03-21 22:59:30,660 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 22:59:30] "[36mGET /student/FindFriends?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-21 22:59:30,672 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 22:59:30] "[36mGET /student/FindFriends?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-21 22:59:30,682 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 22:59:30] "[36mGET /student/FindFriends?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-21 22:59:53,500 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 22:59:53] "GET /student/studentLogin HTTP/1.1" 200 -
+2024-03-21 22:59:58,727 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 22:59:58] "[32mPOST /student/studentLogin HTTP/1.1[0m" 302 -
+2024-03-21 22:59:58,768 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 22:59:58] "GET /student/studentRegister HTTP/1.1" 200 -
+2024-03-21 23:00:00,440 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:00:00] "GET /student/studentLogin HTTP/1.1" 200 -
+2024-03-21 23:00:06,428 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:00:06] "POST /student/studentLogin HTTP/1.1" 200 -
+2024-03-21 23:00:09,182 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:00:09] "GET /student/FindFriends HTTP/1.1" 200 -
+2024-03-21 23:01:33,922 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:01:33] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-21 23:05:07,423 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-21 23:05:07,595 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 23:05:08,931 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 23:05:08,941 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 23:05:11,142 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-21 23:05:11,279 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 23:17:20,438 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-21 23:17:20,438 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-21 23:17:20,438 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 23:17:21,576 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 23:17:21,576 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 23:17:23,535 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:17:23] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-21 23:17:27,746 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:17:27] "GET /student/studentLogin HTTP/1.1" 200 -
+2024-03-21 23:17:33,714 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:17:33] "POST /student/studentLogin HTTP/1.1" 200 -
+2024-03-21 23:17:45,133 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:17:45] "GET /student/applyforNOC HTTP/1.1" 200 -
+2024-03-21 23:18:38,340 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:18:38] "[33mGET /staff HTTP/1.1[0m" 404 -
+2024-03-21 23:19:40,646 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-21 23:19:40,791 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 23:19:41,960 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 23:19:41,978 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 23:19:45,202 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-21 23:19:45,359 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 23:19:46,421 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 23:19:46,425 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 23:19:51,748 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-21 23:19:51,904 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 23:19:53,111 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 23:19:53,127 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 23:19:53,887 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:19:53] "[32mGET /student/applyforNOC HTTP/1.1[0m" 302 -
+2024-03-21 23:19:53,934 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:19:53] "GET /student/completeProfile HTTP/1.1" 200 -
+2024-03-21 23:20:02,527 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:20:02] "GET /student/studentLogin HTTP/1.1" 200 -
+2024-03-21 23:20:07,004 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:20:07] "POST /student/studentLogin HTTP/1.1" 200 -
+2024-03-21 23:20:08,362 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:20:08] "[33mGET /staff HTTP/1.1[0m" 404 -
+2024-03-21 23:20:22,578 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:20:22] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-21 23:21:19,196 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-21 23:21:19,322 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 23:21:20,245 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 23:21:20,261 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 23:21:39,030 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-21 23:21:39,197 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 23:21:40,198 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 23:21:40,213 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 23:21:42,402 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-21 23:21:42,547 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 23:21:43,732 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 23:21:43,732 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 23:21:43,794 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:21:43] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-21 23:21:44,831 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:21:44] "[33mGET /staff HTTP/1.1[0m" 404 -
+2024-03-21 23:21:53,254 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:21:53] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-21 23:21:53,598 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:21:53] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-21 23:22:07,426 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:22:07] "[32mGET /student/applyforNOC HTTP/1.1[0m" 302 -
+2024-03-21 23:22:07,442 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:22:07] "GET /student/completeProfile HTTP/1.1" 200 -
+2024-03-21 23:22:36,221 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:22:36] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-21 23:22:55,567 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:22:55] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-21 23:23:01,623 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:23:01] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-21 23:23:02,967 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:23:02] "[32mGET /student/applyforNOC HTTP/1.1[0m" 302 -
+2024-03-21 23:23:02,982 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:23:02] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-21 23:23:42,957 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-21 23:23:43,103 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 23:33:54,219 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-21 23:33:54,222 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-21 23:33:54,222 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 23:33:55,428 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 23:33:55,447 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 23:34:03,379 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:34:03] "GET /student/studentLogin HTTP/1.1" 200 -
+2024-03-21 23:34:09,207 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:34:09] "POST /student/studentLogin HTTP/1.1" 200 -
+2024-03-21 23:34:14,037 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:34:14] "GET /student/applyforEquivalence HTTP/1.1" 200 -
+2024-03-21 23:35:22,047 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-21 23:35:22,277 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 23:35:23,648 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 23:35:23,661 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 23:36:14,671 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-21 23:36:14,838 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 23:36:48,765 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-21 23:36:48,766 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-21 23:36:48,769 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 23:36:49,881 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 23:36:49,893 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 23:36:49,961 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:36:49] "GET /student/applyforEquivalence HTTP/1.1" 200 -
+2024-03-21 23:37:04,500 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:37:04] "[35m[1mPOST /student/applyforEquivalence HTTP/1.1[0m" 500 -
+2024-03-21 23:37:04,623 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:37:04] "GET /student/applyforEquivalence?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-03-21 23:37:04,630 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:37:04] "GET /student/applyforEquivalence?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-03-21 23:37:04,688 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:37:04] "GET /student/applyforEquivalence?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-03-21 23:37:04,810 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:37:04] "[36mGET /student/applyforEquivalence?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-21 23:37:36,033 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-21 23:37:36,171 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 23:37:37,161 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 23:37:37,161 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 23:37:40,391 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-21 23:37:40,511 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 23:37:41,491 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 23:37:41,503 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 23:37:44,789 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-21 23:37:44,913 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 23:37:46,173 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 23:37:46,181 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 23:37:53,405 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-21 23:37:53,405 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-21 23:37:53,411 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 23:37:54,945 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 23:37:54,955 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 23:37:59,727 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:37:59] "GET /student/applyforEquivalence HTTP/1.1" 200 -
+2024-03-21 23:38:00,233 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:38:00] "GET /student/applyforEquivalence HTTP/1.1" 200 -
+2024-03-21 23:38:00,523 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:38:00] "GET /student/applyforEquivalence HTTP/1.1" 200 -
+2024-03-21 23:38:00,716 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:38:00] "GET /student/applyforEquivalence HTTP/1.1" 200 -
+2024-03-21 23:38:07,444 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:38:07] "[35m[1mPOST /student/applyforEquivalence HTTP/1.1[0m" 500 -
+2024-03-21 23:38:07,581 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:38:07] "[36mGET /student/applyforEquivalence?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-21 23:38:07,581 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:38:07] "[36mGET /student/applyforEquivalence?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-21 23:38:07,616 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:38:07] "[36mGET /student/applyforEquivalence?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-21 23:38:07,670 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:38:07] "[36mGET /student/applyforEquivalence?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-21 23:38:33,522 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-21 23:38:33,699 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 23:38:35,201 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 23:38:35,216 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 23:38:39,505 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-21 23:38:39,644 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 23:38:40,861 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 23:38:40,872 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 23:38:41,983 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-21 23:38:42,121 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 23:38:43,171 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 23:38:43,180 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 23:39:27,093 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:39:27] "GET /student/applyforEquivalence HTTP/1.1" 200 -
+2024-03-21 23:39:30,144 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-21 23:39:30,443 - werkzeug - INFO -  * Restarting with stat
+2024-03-21 23:39:31,571 - werkzeug - WARNING -  * Debugger is active!
+2024-03-21 23:39:31,583 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-21 23:39:31,664 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:39:31] "GET /student/applyforEquivalence HTTP/1.1" 200 -
+2024-03-21 23:39:36,443 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:39:36] "POST /student/applyforEquivalence HTTP/1.1" 200 -
+2024-03-21 23:39:41,470 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:39:41] "[32mPOST /student/applyforEquivalence HTTP/1.1[0m" 302 -
+2024-03-21 23:39:41,481 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2024 23:39:41] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 00:54:56,801 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-22 00:54:56,801 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-22 00:54:56,801 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 00:54:58,025 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 00:54:58,035 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 00:55:20,149 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 00:55:20,281 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 00:55:21,661 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 00:55:21,696 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 00:55:23,899 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 00:55:24,029 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 00:55:25,349 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 00:55:25,364 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 00:55:57,809 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 00:55:57,947 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 00:55:59,098 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 00:55:59,109 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 00:56:25,201 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 00:56:25,361 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 00:56:26,749 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 00:56:26,761 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 00:56:26,951 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 00:56:26] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 00:56:27,881 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 00:56:27] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 00:56:28,231 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 00:56:28] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 00:56:28,469 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 00:56:28] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 00:56:32,479 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 00:56:32] "[32mGET /student/approvevisanumber HTTP/1.1[0m" 302 -
+2024-03-22 00:56:32,493 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 00:56:32] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 00:57:03,186 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 00:57:03,319 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 00:57:04,591 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 00:57:04,599 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 00:57:05,759 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 00:57:05,891 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 00:57:07,159 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 00:57:07,159 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 00:57:07,939 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 00:57:07] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 00:57:09,917 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 00:57:09] "[32mGET /student/approvevisanumber HTTP/1.1[0m" 302 -
+2024-03-22 00:57:09,924 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 00:57:09] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 00:57:21,721 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 00:57:21,863 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 00:57:23,024 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 00:57:23,040 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 00:57:30,471 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 00:57:30,606 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 00:57:31,953 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 00:57:31,971 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 00:57:35,203 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 00:57:35,366 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 00:57:36,591 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 00:57:36,599 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 00:57:39,396 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 00:57:39] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 00:57:41,111 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 00:57:41] "[32mGET /student/approvevisanumber HTTP/1.1[0m" 302 -
+2024-03-22 00:57:41,119 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 00:57:41] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 00:59:17,285 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 00:59:17,424 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 00:59:18,759 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 00:59:18,775 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 00:59:22,001 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 00:59:22,131 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 00:59:23,629 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 00:59:23,639 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 00:59:23,831 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 00:59:23] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 00:59:25,574 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 00:59:25] "[32mGET /student/approvevisanumber HTTP/1.1[0m" 302 -
+2024-03-22 00:59:25,581 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 00:59:25] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 00:59:56,900 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 00:59:57,064 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 00:59:58,158 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 00:59:58,169 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 00:59:59,296 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 00:59:59,421 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 01:00:00,701 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 01:00:00,717 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 01:00:03,876 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\models\\student_model.py', reloading
+2024-03-22 01:00:04,014 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 01:00:04,986 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 01:00:04,995 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 01:00:07,165 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 01:00:07,299 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 01:00:08,240 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 01:00:08,248 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 01:00:14,780 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-22 01:00:14,780 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-22 01:00:14,780 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 01:00:15,800 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 01:00:15,810 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 01:00:16,052 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:00:16] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 01:00:16,642 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:00:16] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 01:00:16,830 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:00:16] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 01:00:16,980 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:00:16] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 01:00:17,120 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:00:17] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 01:00:17,280 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:00:17] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 01:00:17,420 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:00:17] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 01:00:34,609 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 01:00:34,782 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 01:01:39,690 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-22 01:01:39,690 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-22 01:01:39,692 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 01:01:40,700 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 01:01:40,716 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 01:01:40,770 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:01:40] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 01:01:45,420 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:01:45] "[32mGET /student/logout HTTP/1.1[0m" 302 -
+2024-03-22 01:01:45,433 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:01:45] "GET /student/studentLogin HTTP/1.1" 200 -
+2024-03-22 01:01:47,828 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:01:47] "[32mGET /student/studentDashboard HTTP/1.1[0m" 302 -
+2024-03-22 01:02:01,625 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:02:01] "[32mGET /student/studentDashboard HTTP/1.1[0m" 302 -
+2024-03-22 01:02:01,638 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:02:01] "GET /student/studentLogin HTTP/1.1" 200 -
+2024-03-22 01:02:07,422 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:02:07] "POST /student/studentLogin HTTP/1.1" 200 -
+2024-03-22 01:02:25,582 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:02:25] "[32mGET /student/approvevisanumber HTTP/1.1[0m" 302 -
+2024-03-22 01:02:25,590 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:02:25] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 01:03:35,860 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 01:03:36,002 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 01:03:37,444 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 01:03:37,461 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 01:03:37,563 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 01:03:37,734 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 01:03:38,858 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 01:03:38,870 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 01:03:39,983 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 01:03:40,118 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 01:03:41,118 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 01:03:41,128 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 01:03:56,750 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:03:56] "[32mGET /student/approvevisanumber HTTP/1.1[0m" 302 -
+2024-03-22 01:03:56,762 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:03:56] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 01:07:11,081 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\models\\student_model.py', reloading
+2024-03-22 01:07:11,241 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 01:07:12,506 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 01:07:12,525 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 01:07:43,990 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 01:07:44,109 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 01:07:45,318 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 01:07:45,328 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 01:07:46,494 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 01:07:46,712 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 01:08:05,709 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-22 01:08:05,709 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-22 01:08:05,709 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 01:08:06,882 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 01:08:06,888 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 01:08:08,141 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:08:08] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 01:08:09,018 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:08:09] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 01:08:10,414 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:08:10] "[32mGET /student/approvevisanumber HTTP/1.1[0m" 302 -
+2024-03-22 01:08:10,420 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:08:10] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 01:08:25,863 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:08:25] "[32mGET /student/approvevisanumber HTTP/1.1[0m" 302 -
+2024-03-22 01:08:25,871 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:08:25] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 01:09:03,350 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:09:03] "GET /student/FindFriends HTTP/1.1" 200 -
+2024-03-22 01:09:07,382 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:09:07] "[33mGET /student HTTP/1.1[0m" 404 -
+2024-03-22 01:09:09,868 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:09:09] "[32mGET /student/applyforNOC HTTP/1.1[0m" 302 -
+2024-03-22 01:09:09,873 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:09:09] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 01:09:15,922 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:09:15] "[32mGET /student/applyforNOC HTTP/1.1[0m" 302 -
+2024-03-22 01:09:15,950 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:09:15] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 01:10:22,370 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:10:22] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 01:10:23,901 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:10:23] "GET /student/applyforEquivalence HTTP/1.1" 200 -
+2024-03-22 01:16:33,704 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 01:16:33,829 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 01:16:34,907 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 01:16:34,921 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 01:16:36,125 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 01:16:36,243 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 01:16:37,215 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 01:16:37,225 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 01:16:41,449 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 01:16:41,592 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 01:16:42,574 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 01:16:42,589 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 01:16:43,682 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 01:16:43,808 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 01:16:44,721 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 01:16:44,737 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 01:17:00,505 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 01:17:00,646 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 01:17:01,856 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 01:17:01,857 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 01:18:10,641 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 01:18:10,759 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 01:18:11,876 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 01:18:11,883 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 01:18:14,102 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 01:18:14,240 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 01:18:15,340 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 01:18:15,342 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 01:18:16,442 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 01:18:16,579 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 01:18:17,615 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 01:18:17,626 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 01:18:21,826 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 01:18:21,951 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 01:18:22,854 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 01:18:22,870 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 01:18:27,072 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 01:18:27,212 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 01:18:28,402 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 01:18:28,402 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 01:18:29,522 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 01:18:29,651 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 01:18:30,721 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 01:18:30,738 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 01:18:33,901 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 01:18:34,037 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 01:18:35,012 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 01:18:35,025 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 01:18:36,151 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 01:18:36,263 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 01:18:37,168 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 01:18:37,184 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 01:18:53,249 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-22 01:18:53,249 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-22 01:18:53,249 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 01:18:54,296 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 01:18:54,312 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 01:18:55,904 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:18:55] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 01:18:56,372 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:18:56] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 01:19:00,299 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:19:00] "[35m[1mGET /student/applyforEquivalence HTTP/1.1[0m" 500 -
+2024-03-22 01:19:00,424 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:19:00] "[36mGET /student/applyforEquivalence?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-22 01:19:00,424 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:19:00] "[36mGET /student/applyforEquivalence?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-22 01:19:00,495 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:19:00] "[36mGET /student/applyforEquivalence?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-22 01:19:00,574 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:19:00] "[36mGET /student/applyforEquivalence?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-22 01:19:25,532 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 01:19:25,687 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 01:19:26,878 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 01:19:26,878 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 01:19:27,738 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:19:27] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 01:19:29,423 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:19:29] "[32mGET /student/applyforEquivalence HTTP/1.1[0m" 302 -
+2024-03-22 01:19:29,438 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:19:29] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 01:19:36,252 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 01:19:36,397 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 01:19:37,415 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 01:19:37,437 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 01:19:39,621 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 01:19:39,754 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 01:19:40,736 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 01:19:40,736 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 01:19:42,924 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 01:19:43,090 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 01:19:44,274 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 01:19:44,290 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 01:19:44,357 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:19:44] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 01:19:51,462 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-22 01:19:51,462 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-03-22 01:19:51,477 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 01:19:52,524 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 01:19:52,524 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 01:19:52,571 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:19:52] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 01:19:53,979 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:19:53] "[32mGET /student/applyforEquivalence HTTP/1.1[0m" 302 -
+2024-03-22 01:19:53,995 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:19:53] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 01:22:35,938 - werkzeug - INFO -  * Detected change in 'G:\\SHAHEER\\Projects\\Projects\\IEDS\\IEDS\\blueprints\\student\\student.py', reloading
+2024-03-22 01:22:36,075 - werkzeug - INFO -  * Restarting with stat
+2024-03-22 01:22:37,001 - werkzeug - WARNING -  * Debugger is active!
+2024-03-22 01:22:37,026 - werkzeug - INFO -  * Debugger PIN: 157-123-012
+2024-03-22 01:23:02,189 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:23:02] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 01:23:03,831 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:23:03] "GET /student/applyforEquivalence HTTP/1.1" 200 -
+2024-03-22 01:23:23,433 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:23:23] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 01:23:25,771 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:23:25] "[32mGET /student/applyforEquivalence HTTP/1.1[0m" 302 -
+2024-03-22 01:23:25,786 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:23:25] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 01:23:26,926 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:23:26] "[32mGET /student/applyforEquivalence HTTP/1.1[0m" 302 -
+2024-03-22 01:23:26,926 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:23:26] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 01:23:28,853 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:23:28] "[32mGET /student/approvevisanumber HTTP/1.1[0m" 302 -
+2024-03-22 01:23:28,853 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:23:28] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 01:23:30,712 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:23:30] "[32mGET /student/applyforNOC HTTP/1.1[0m" 302 -
+2024-03-22 01:23:30,712 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:23:30] "GET /student/studentDashboard HTTP/1.1" 200 -
+2024-03-22 01:23:32,597 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2024 01:23:32] "GET /student/FindFriends HTTP/1.1" 200 -

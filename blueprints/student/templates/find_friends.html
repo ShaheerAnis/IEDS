@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find Friends</title>
+    <style>
+      /* Optional: Add some basic styling */
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      li {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Find Friends</h1>
+    <p>List of students with similar CountryId and UniversityId:</p>
+    <ul>
+      {% for student in similar_students %}
+      <li>Name: {{ student.Name }}</li>
+      <li>Contact Number: {{ student.ContactNumber }}</li>
+      <li>Email: {{ student.Email }}</li>
+      <hr />
+      <!-- Optional: Add a horizontal line to separate each student's data -->
+      {% endfor %}
+    </ul>
+  </body>
+</html>

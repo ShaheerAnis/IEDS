@@ -17,7 +17,7 @@ from flask import (
 from flask_mail import Message
 from sqlalchemy import func
 from models.admin_model import Admin,db
-from models.country_model import Country   
+from models.country_model import Country
 from models.department_model import Department
 from models.doctype_model import DocType
 from models.document_model import Document
@@ -52,6 +52,9 @@ def adminRegister():
         password = request.form.get('password')
     
 
+        # Generate a random password
+        # characters = string.ascii_letters + string.digits + "!@#$%^&*()_-+"
+        # password = ''.join(random.choice(characters) for _ in range(8))
 
         # Check whether username already exists or not
         user = Admin.query.filter_by(Username=username).first()
@@ -65,17 +68,24 @@ def adminRegister():
             Username=username,
             Password=hashlib.sha256(password.encode()).hexdigest(),
             Email=email,
-            ContactNumber = conatct,    
-            Deleted = False
+            ContactNumber = conatct
         )
 
         db.session.add(new_user)
         db.session.commit()
 
+        # Send an email to the new admin with their credentials
+        # msg = Message("Welcome to the Management Team!",
+        #               sender="bizintro1@gmail.com",
+        #               recipients=[email])
+        # msg.html = f"Hi {name},<br>You have been added as an Admin to our community.<br>Please login to your account using the following credentials:<br>Username: {username}<br>Password: {password}"
+
+        # mail.send(msg)
+
         return redirect(url_for('admin.show_login'))
 
     else:
-        return render_template('adminregister.html')
+        return render_template('register.html')
 
 
 # Login routes
@@ -119,91 +129,5 @@ def adminLogin():
     else:
         return render_template('adminLogin.html')
     
-
-
-#student registratin
-@admin_bp.route('/add_organization', methods=['GET', 'POST'])
-def add_organization():
-    if request.method == 'POST':
-        # Only admin can add new Admin
-        # if 'admin_user_id' not in session:
-        #     return render_template('error-403.html')
-        
-
-        # Get data from form
-        name = request.form.get('name')
-        
-    
-
-        # Generate a random password
-        # characters = string.ascii_letters + string.digits + "!@#$%^&*()_-+"
-        # password = ''.join(random.choice(characters) for _ in range(8))
-
-        # Check whether username already exists or not
-        organization = Organization.query.filter_by(Name=name).first()
-        if organization:
-            flash("Organization already exists.", "error")
-            return redirect(url_for('admin.organization'))
-
-        # Create a new admin user
-        new_organization = Organization(
-            Name=name,
-            Deleted=False,
-            
-        )
-
-        db.session.add(new_organization)
-        db.session.commit()
-
-        # Send an email to the new admin with their credentials
-        # msg = Message("Welcome to the Management Team!",
-        #               sender="bizintro1@gmail.com",
-        #               recipients=[email])
-        # msg.html = f"Hi {name},<br>You have been added as an Admin to our community.<br>Please login to your account using the following credentials:<br>Username: {username}<br>Password: {password}"
-
-        # mail.send(msg)
-
-        return redirect(url_for('admin.add_organization'))
-
-    else:
-        return render_template('organization.html')
-    
-
-
-#Delete Organization
-@admin_bp.route('/deleteOrg/<int:organization_id>', methods=['GET'])
-def deleteOrg(organization_id):
-    organization = Organization.query.get_or_404(organization_id)
-    if organization.Deleted != True:
-        organization.Deleted = True
-        db.session.commit()
-        
-        return redirect(url_for('admin.organization')) 
-        
-        
-    else:
-        return render_template('organization.html') 
-
-
-#Resstore Organization
-@admin_bp.route('/restoreOrg/<int:organization_id>', methods=['GET'])
-def restoreOrg(organization_id):
-    organization = Organization.query.get_or_404(organization_id)
-    # organizationList = Organization.query.filter_by(Deleted = True) 
-    if organization.Deleted != False:
-        organization.Deleted = False
-        db.session.commit()
-        
-        return redirect(url_for('admin.organization')) 
-        
-        
-    else:
-        return render_template('organization.html') 
-
-
-@admin_bp.route('/organization', methods=['Get'])
-def organization():
-    organizations = Organization.query.all() 
-    return render_template('organization.html', organizations = organizations)
     
     
