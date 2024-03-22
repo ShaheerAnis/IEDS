@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration</title>
+  </head>
+  <body>
+    <h1>Staff Registration</h1>
+    <form method="POST">
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" required /><br />
+      <label for="username">Username:</label><br />
+      <input type="text" id="username" name="username" required /><br />
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required /><br />
+      <label for="password">Password:</label><br />
+      <input type="password" id="Password" name="password" required /><br />
+      <label for="organization">Organization:</label><br />
+      <select id="organization" name="organization">
+        {% for org in organizations %}
+        <option value="{{ org.Id }}">{{ org.Name }}</option>
+        {% endfor %}</select
+      ><br/>
+      <input type="submit" value="Register" />
+    </form>
+
+
+
+    <!-- {% if staffmembers %}
+    <h1>Staff List</h1>
+    <h2>Active Staff</h2>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Delete</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for staffmem in staffmembers %}
+        {% if not staffmem.Deleted %}
+        <tr>
+          <td>{{ staffmem.Name }}</td>
+          <td>{{ staffmem.Username }}</td>
+          <td>{{ staffmem.Email }}</td>
+
+          <td>
+            <form action="{{ url_for('admin.deleteOrg', organization_id=organization.Id) }}">
+              <button type="submit" class="btn btn-danger">Delete</button>
+            </form>
+          </td>
+        </tr>
+        {% endif %}
+        {% endfor %}
+      </tbody>
+    </table>
+
+    <h2>DeActive Staff</h2>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Name</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for staffmem in staffmembers %}
+        {% if staffmem.Deleted %}
+        <tr>
+          <td>{{ staffmem.Name }}</td>
+          <td>{{ staffmem.Username }}</td>
+          <td>{{ staffmem.Email }}</td>
+          <td>
+            <form action="{{ url_for('admin.restoreOrg', organization_id=organization.Id) }}">
+              <button type="submit" class="btn btn-primary">Restore</button>
+            </form>
+          </td>
+        </tr>
+        {% endif %}
+        {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+    <p>No Staff found.</p>
+    {% endif %} -->
+  </body>
+</html>

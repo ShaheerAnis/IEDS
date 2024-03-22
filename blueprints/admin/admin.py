@@ -134,7 +134,7 @@ def add_organization():
         name = request.form.get('name')
         
     
-
+   
         # Generate a random password
         # characters = string.ascii_letters + string.digits + "!@#$%^&*()_-+"
         # password = ''.join(random.choice(characters) for _ in range(8))
@@ -201,9 +201,151 @@ def restoreOrg(organization_id):
         return render_template('organization.html') 
 
 
+#show organization page
 @admin_bp.route('/organization', methods=['Get'])
 def organization():
     organizations = Organization.query.all() 
     return render_template('organization.html', organizations = organizations)
     
     
+
+#Staff Regsitration
+@admin_bp.route('/staffRegister', methods=['GET', 'POST'])
+def staffRegister():
+    if request.method == 'POST':
+        # Only student can add new student
+        # if 'student_user_id' not in session:
+        #     return render_template('error-403.html')
+        
+
+        # Get data from form
+        name = request.form.get('name')
+        username = request.form.get('username')
+        email = request.form.get('email')
+        password = request.form.get('password')
+        organization_id = request.form.get('organization')
+    
+
+        # Check whether username already exists or not
+        user = Staff.query.filter_by(Email=email).first()
+        # user = Student.query.filter(or_(Student.UniRegistrationNumber == uniRegistrationNumber, Student.Username == username)).first()
+        if user:
+            flash("Username already exists.", "error")
+            return redirect(url_for('admin.staffRegister'))
+
+        
+        # Create a new staff user
+        new_user = Staff(
+            Name=name,
+            Username=username,
+            Password=hashlib.sha256(password.encode()).hexdigest(),
+            Email=email,
+            OrganizationId=organization_id,
+            Deleted = False
+        )
+
+        db.session.add(new_user)
+        db.session.commit()
+
+        # Send an email to the new student with their credentials
+        # msg = Message("Welcome to the Management Team!",
+        #               sender="bizintro1@gmail.com",
+        #               recipients=[email])
+        # msg.html = f"Hi {name},<br>You have been added as an student to our community.<br>Please login to your account using the following credentials:<br>Username: {username}<br>Password: {password}"
+
+        # mail.send(msg)
+
+        return redirect(url_for('admin.staffRegister'))
+
+    else:
+        organizations = Organization.query.filter_by(Deleted=False).all()
+        # staffmembers = Staff.query.all()
+        return render_template('admin_staffRegister.html', organizations=organizations)
+
+
+
+
+
+#ADD country
+@admin_bp.route('/add_country', methods=['GET', 'POST'])
+def add_country():
+    if request.method == 'POST':
+        # Only admin can add new Admin
+        # if 'admin_user_id' not in session:
+        #     return render_template('error-403.html')
+        
+
+        # Get data from form
+        name = request.form.get('name')
+        
+    
+   
+        # Generate a random password
+        # characters = string.ascii_letters + string.digits + "!@#$%^&*()_-+"
+        # password = ''.join(random.choice(characters) for _ in range(8))
+
+        # Check whether username already exists or not
+        country = Country.query.filter_by(Name=name).first()
+        if country:
+            flash("Country already exists.", "error")
+            return redirect(url_for('admin.add_country'))
+
+        # Create a new admin user
+        new_country = Country(
+            Name=name,
+            Deleted=False,
+            
+        )
+
+        db.session.add(new_country)
+        db.session.commit()
+
+        # Send an email to the new admin with their credentials
+        # msg = Message("Welcome to the Management Team!",
+        #               sender="bizintro1@gmail.com",
+        #               recipients=[email])
+        # msg.html = f"Hi {name},<br>You have been added as an Admin to our community.<br>Please login to your account using the following credentials:<br>Username: {username}<br>Password: {password}"
+
+        # mail.send(msg)
+
+        return redirect(url_for('admin.country'))
+
+    else:
+        return redirect(url_for('admin.country'))
+    
+#Delete Country
+@admin_bp.route('/deleteCountry/<int:country_id>', methods=['GET'])
+def deleteCountry(country_id):
+    country = Country.query.get_or_404(country_id)
+    if country.Deleted != True:
+        country.Deleted = True
+        db.session.commit()
+        
+        return redirect(url_for('admin.country')) 
+        
+        
+    else:
+        return redirect(url_for('admin.country'))
+
+
+#Resstore Country
+@admin_bp.route('/restoreCountry/<int:country_id>', methods=['GET'])
+def restoreCountry(country_id):
+    country = Country.query.get_or_404(country_id)
+    # organizationList = Organization.query.filter_by(Deleted = True) 
+    if country.Deleted != False:
+        country.Deleted = False
+        db.session.commit()
+        
+        return redirect(url_for('admin.country')) 
+        
+        
+    else:
+        return redirect(url_for('admin.country'))
+
+
+#show Country page
+@admin_bp.route('/country', methods=['Get'])
+def country():
+    countries = Country.query.all() 
+    return render_template('admin_country.html', countries = countries)
