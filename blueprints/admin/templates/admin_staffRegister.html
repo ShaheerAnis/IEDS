@@ -27,7 +27,7 @@
 
 
 
-    <!-- {% if staffmembers %}
+    {% if staffmembers %}
     <h1>Staff List</h1>
     <h2>Active Staff</h2>
     <table class="table table-striped">
@@ -45,11 +45,7 @@
           <td>{{ staffmem.Username }}</td>
           <td>{{ staffmem.Email }}</td>
 
-          <td>
-            <form action="{{ url_for('admin.deleteOrg', organization_id=organization.Id) }}">
-              <button type="submit" class="btn btn-danger">Delete</button>
-            </form>
-          </td>
+         
         </tr>
         {% endif %}
         {% endfor %}
@@ -70,11 +66,7 @@
           <td>{{ staffmem.Name }}</td>
           <td>{{ staffmem.Username }}</td>
           <td>{{ staffmem.Email }}</td>
-          <td>
-            <form action="{{ url_for('admin.restoreOrg', organization_id=organization.Id) }}">
-              <button type="submit" class="btn btn-primary">Restore</button>
-            </form>
-          </td>
+         
         </tr>
         {% endif %}
         {% endfor %}
@@ -82,6 +74,6 @@
     </table>
     {% else %}
     <p>No Staff found.</p>
-    {% endif %} -->
+    {% endif %}
   </body>
 </html>

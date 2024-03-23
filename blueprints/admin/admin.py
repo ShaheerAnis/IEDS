@@ -259,8 +259,8 @@ def staffRegister():
 
     else:
         organizations = Organization.query.filter_by(Deleted=False).all()
-        # staffmembers = Staff.query.all()
-        return render_template('admin_staffRegister.html', organizations=organizations)
+        staffmembers = Staff.query.all()
+        return render_template('admin_staffRegister.html', organizations=organizations,staffmembers=staffmembers)
 
 
 
@@ -311,7 +311,9 @@ def add_country():
         return redirect(url_for('admin.country'))
 
     else:
-        return redirect(url_for('admin.country'))
+        countries = Country.query.all() 
+        return render_template('admin_country.html',countries=countries)
+        # return render_template('admin_country.html')
     
 #Delete Country
 @admin_bp.route('/deleteCountry/<int:country_id>', methods=['GET'])

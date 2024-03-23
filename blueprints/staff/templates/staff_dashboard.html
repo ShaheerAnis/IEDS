@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Dashboard</title>
+    <!-- Include any necessary CSS stylesheets -->
+</head>
+<body>
+    <h1>Welcome to the Staff Dashboard</h1>
+    <p>Hello, {{ session['staff_username'] }}!</p>
+    
+    <!-- Table of documents submitted by students -->
+    <h2>Documents Submitted by Students</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Document Name</th>
+                <th>Student Name</th>
+                <th>Submission Date</th>
+                <!-- Add more columns if needed -->
+            </tr>
+        </thead>
+        <tbody>
+            {% for document in documents %}
+            <tr>
+                <td>{{ document.name }}</td>
+                <td>{{ document.student_name }}</td>
+                <td>{{ document.submission_date }}</td>
+                <!-- Add more columns if needed -->
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    
+    <!-- Add any other content or functionality specific to the staff dashboard -->
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Staff Registration</title>
+  </head>
+  <body>
+    <h1>Staff Registration</h1>
+    <form method="POST">
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" required /><br />
+      <label for="username">Username:</label><br />
+      <input type="text" id="username" name="username" required /><br />
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required /><br />
+      <label for="password">Password:</label><br />
+      <input type="password" id="Password" name="password" required /><br />
+      <label for="organization">Organization:</label><br />
+      <select id="organization" name="organization">
+        {% for org in organizations %}
+        <option value="{{ org.Id }}">{{ org.Name }}</option>
+        {% endfor %}</select
+      ><br/>
+      <input type="submit" value="Register" />
+    </form>
+
+
+
+  </body>
+</html>

@@ -123,6 +123,7 @@ def studentLogin():
     if request.method == 'POST':
         username = request.form.get('username')
         password = request.form.get('password')
+        
         remember_me = request.form.get('remember_me')
 
         user = Student.query.filter_by(
@@ -160,7 +161,7 @@ def allowed_file(filename):
 
 def create_upload_folder():
     if not os.path.exists(Config.UPLOAD_FOLDER):
-        os.makedirs(UPLOAD_FOLDER)
+        os.makedirs(Config.UPLOAD_FOLDER)
 
 @student_bp.route('/completeProfile', methods=['GET', 'POST'])
 def completeProfile():
@@ -202,7 +203,7 @@ def completeProfile():
         
 
         user.CountryId = countryid
-        user.VisaId = "123"
+        user.VisaId = visaid
         user.PassportNumber = passportnumber
         user.FatherName = fathername
         user.NICNumber = nicnumber
@@ -285,12 +286,14 @@ def applyforEquivalence():
     
     user_id = session['student_user_id']
     
+    eqv_ID = DocType.query.filter(DocType.DocTypeName == "Equivalence").first().Id
     # Check if the user already has a document with TypeId 4 (equivalence)
     existing_equivalence_document = Document.query.filter(
         and_
         (
             Document.StudentId == user_id,
-            Document.TypeId == 4,
+
+            Document.TypeId == eqv_ID,
             Document.Applied == True
             )
         ).first()
@@ -322,8 +325,8 @@ def applyforEquivalence():
             file.save(file_path)
         
         # Update the database with the uploaded file
-            equivalence_doc_type_id = 4  # Hardcoded TypeId for equivalence document
-            new_document = Document(Name=filename, UploadDate=datetime.now(), FileLocation=file_path, StudentId=user_id, TypeId=equivalence_doc_type_id, Applied=True)
+            # equivalence_doc_type_id = 4  # Hardcoded TypeId for equivalence document
+            new_document = Document(Name=filename, UploadDate=datetime.now(), FileLocation=file_path, StudentId=user_id, TypeId=eqv_ID, Applied=True)
             db.session.add(new_document)
             db.session.commit()
         
