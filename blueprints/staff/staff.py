@@ -5,7 +5,7 @@
 
 
 
-
+import os
 import secrets
 import string
 import random
@@ -34,6 +34,8 @@ from models.report_model import Report
 from models.staff_model import Staff
 from models.student_model import Student
 from .. import mail
+from flask import send_file, abort,Response
+from io import BytesIO
 
 
 # Define the admin blueprint.
@@ -310,15 +312,131 @@ def staffLogin():
                 else:
                     session.permanent = False
 
-                return render_template('staffLogin.html')
+                return redirect(url_for('staff.staff_dashboard'))
             else:
                 flash("You are not authorized to log in. Please contact your organization.")
                 return redirect(url_for('staff.staffRegisteration'))
         else:
             flash("Login failed. Please try again.")
-            return redirect(url_for('staff.staffRegisteration'))
+            return redirect(url_for('staff.staffLogin'))
     else:
-        return render_template('staffLogin.html')
+        return render_template('staff_dashboard.html')
     
 
 
+@staff_bp.route('/staff_dashboard')
+def staff_dashboard():
+    # Fetch documents submitted by students, assuming you have a function to do this
+    documents = Document.query.filter_by(TypeId='2').all()
+    student_ids = [doc.StudentId for doc in documents]
+
+    # Fetch additional data for the students
+    # Assuming you have a Student model and you want to fetch data from that model
+    students = Student.query.filter(Student.Id.in_(student_ids)).all()
+    
+    return render_template('staff_dashboard.html', documents=documents,students=students)
+
+
+
+#Approve Request
+@staff_bp.route('/approveReq/<int:document_id>', methods=['GET'])
+def approveReq(document_id):
+    document = Document.query.get_or_404(document_id)
+    if document.Deleted != False:
+        document.Deleted = False
+        db.session.commit()
+        
+        return redirect(url_for('staff.staff_dashboard')) 
+        
+        
+    else:
+        documents = Document.query.filter_by(TypeId='2').all()
+        student_ids = [doc.StudentId for doc in documents]
+
+    # Fetch additional data for the students
+    # Assuming you have a Student model and you want to fetch data from that model
+        students = Student.query.filter(Student.Id.in_(student_ids)).all()
+        return render_template('staff_dashboard.html', documents=documents,students=students) 
+
+
+#Reject Organization
+@staff_bp.route('/rejectReq/<int:document_id>', methods=['GET'])
+def rejectReq(document_id):
+    document = Document.query.get_or_404(document_id)
+    # organizationList = Organization.query.filter_by(Deleted = True) 
+    if document.Status != True:
+        document.Status = False
+        document.Deleted = True
+        db.session.commit()
+        
+        return redirect(url_for('staff.staff_dashboard')) 
+        
+        
+    else:
+        documents = Document.query.filter_by(TypeId='2').all()
+        student_ids = [doc.StudentId for doc in documents]
+
+    # Fetch additional data for the students
+    # Assuming you have a Student model and you want to fetch data from that model
+        students = Student.query.filter(Student.Id.in_(student_ids)).all()
+        return render_template('staff_dashboard.html', documents=documents,students=students) 
+        # return render_template('staff_dashboard.html') 
+
+
+# @staff_bp.route('/download_document/<int:document_id>')
+# def download_document(document_id):
+#     # Fetch the document from the database
+#     document = Document.query.get(document_id)
+
+#     if not document:
+#         abort(404, "Document not found")
+
+#     # Assuming 'document_data' is the column where the file is stored
+#     document_data = document.FileLocation  # Replace 'document_data' with your actual column name
+
+#     # You might need to set up a proper filename and mimetype based on your application's logic
+#     filename = document.Name  # Replace 'name' with your actual column name
+#     mimetype = 'application/pdf'  # Example mimetype, adjust according to your file type
+
+#     # Return the file as an attachment
+#     return send_file(document_data, mimetype=mimetype)
+
+
+@staff_bp.route('/IBCC_staff_dashboard')
+def IBCC_staff_dashboard():
+    # Fetch documents submitted by students, assuming you have a function to do this
+    documents = Document.query.filter_by(
+        TypeId='2',
+        Deleted = False).all()
+    student_ids = [doc.StudentId for doc in documents]
+
+    # Fetch additional data for the students
+    # Assuming you have a Student model and you want to fetch data from that model
+    students = Student.query.filter(Student.Id.in_(student_ids)).all()
+    
+    return render_template('IBCC_StaffReg.html', documents=documents,students=students)
+
+
+@staff_bp.route('/rejectReqIBCC/<int:document_id>', methods=['GET'])
+def rejectReqIBCC(document_id):
+    document = Document.query.get_or_404(document_id)
+    # organizationList = Organization.query.filter_by(Deleted = True) 
+    if document.Status != False:
+        document.Status = False
+        document.Deleted = True
+        db.session.commit()
+        
+        return redirect(url_for('staff.IBCC_staff_dashboard')) 
+        
+        
+    else:
+        documents = Document.query.filter_by(
+        TypeId='2',
+        Deleted = False).all()
+        student_ids = [doc.StudentId for doc in documents]
+
+    # Fetch additional data for the students
+    # Assuming you have a Student model and you want to fetch data from that model
+        students = Student.query.filter(Student.Id.in_(student_ids)).all()
+    
+        return render_template('IBCC_StaffReg.html', documents=documents,students=students)

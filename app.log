@@ -3843,3 +3843,246 @@
 2024-03-23 08:05:05,186 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:05:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 2024-03-23 08:22:44,383 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\staff\\staff.py', reloading
 2024-03-23 08:22:44,611 - werkzeug - INFO -  * Restarting with stat
+2024-03-23 08:22:47,039 - werkzeug - WARNING -  * Debugger is active!
+2024-03-23 08:22:47,047 - werkzeug - INFO -  * Debugger PIN: 856-462-875
+2024-03-23 08:28:54,491 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\staff\\staff.py', reloading
+2024-03-23 08:28:54,664 - werkzeug - INFO -  * Restarting with stat
+2024-03-23 08:28:56,860 - werkzeug - WARNING -  * Debugger is active!
+2024-03-23 08:28:56,868 - werkzeug - INFO -  * Debugger PIN: 856-462-875
+2024-03-23 08:34:28,190 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\staff\\staff.py', reloading
+2024-03-23 08:34:28,350 - werkzeug - INFO -  * Restarting with stat
+2024-03-23 08:34:29,766 - werkzeug - WARNING -  * Debugger is active!
+2024-03-23 08:34:29,774 - werkzeug - INFO -  * Debugger PIN: 856-462-875
+2024-03-23 08:36:44,877 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\staff\\staff.py', reloading
+2024-03-23 08:36:45,047 - werkzeug - INFO -  * Restarting with stat
+2024-03-23 08:36:46,539 - werkzeug - WARNING -  * Debugger is active!
+2024-03-23 08:36:46,547 - werkzeug - INFO -  * Debugger PIN: 856-462-875
+2024-03-23 08:36:51,046 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:36:51] "GET /staff/staffLogin HTTP/1.1" 200 -
+2024-03-23 08:36:58,456 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:36:58] "[32mPOST /staff/staffLogin HTTP/1.1[0m" 302 -
+2024-03-23 08:36:58,564 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:36:58] "[35m[1mGET /staff/staff_dashboard HTTP/1.1[0m" 500 -
+2024-03-23 08:36:58,871 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:36:58] "GET /staff/staff_dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-03-23 08:36:58,873 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:36:58] "GET /staff/staff_dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-03-23 08:36:58,988 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:36:58] "GET /staff/staff_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-03-23 08:36:59,062 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:36:59] "[36mGET /staff/staff_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-23 08:37:24,701 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:37:24] "GET /staff/staff_dashboard HTTP/1.1" 200 -
+2024-03-23 08:37:53,406 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:37:53] "GET /staff/staff_dashboard HTTP/1.1" 200 -
+2024-03-23 08:37:54,441 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\staff\\staff.py', reloading
+2024-03-23 08:37:54,614 - werkzeug - INFO -  * Restarting with stat
+2024-03-23 08:37:55,953 - werkzeug - WARNING -  * Debugger is active!
+2024-03-23 08:37:55,961 - werkzeug - INFO -  * Debugger PIN: 856-462-875
+2024-03-23 08:37:59,426 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:37:59] "GET /staff/staff_dashboard HTTP/1.1" 200 -
+2024-03-23 08:38:10,789 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:38:10] "GET /staff/staff_dashboard HTTP/1.1" 200 -
+2024-03-23 08:38:10,876 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\staff\\staff.py', reloading
+2024-03-23 08:38:11,061 - werkzeug - INFO -  * Restarting with stat
+2024-03-23 08:38:12,451 - werkzeug - WARNING -  * Debugger is active!
+2024-03-23 08:38:12,460 - werkzeug - INFO -  * Debugger PIN: 856-462-875
+2024-03-23 08:38:16,171 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:38:16] "GET /staff/staff_dashboard HTTP/1.1" 200 -
+2024-03-23 08:45:09,064 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\staff\\staff.py', reloading
+2024-03-23 08:45:09,334 - werkzeug - INFO -  * Restarting with stat
+2024-03-23 08:45:10,762 - werkzeug - WARNING -  * Debugger is active!
+2024-03-23 08:45:10,773 - werkzeug - INFO -  * Debugger PIN: 856-462-875
+2024-03-23 08:48:59,026 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\staff\\staff.py', reloading
+2024-03-23 08:48:59,176 - werkzeug - INFO -  * Restarting with stat
+2024-03-23 08:49:01,233 - werkzeug - WARNING -  * Debugger is active!
+2024-03-23 08:49:01,241 - werkzeug - INFO -  * Debugger PIN: 856-462-875
+2024-03-23 08:49:15,661 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\staff\\staff.py', reloading
+2024-03-23 08:49:15,823 - werkzeug - INFO -  * Restarting with stat
+2024-03-23 08:49:17,444 - werkzeug - WARNING -  * Debugger is active!
+2024-03-23 08:49:17,453 - werkzeug - INFO -  * Debugger PIN: 856-462-875
+2024-03-23 08:49:21,061 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:49:21] "[35m[1mGET /staff/staff_dashboard HTTP/1.1[0m" 500 -
+2024-03-23 08:49:21,333 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:49:21] "[36mGET /staff/staff_dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-23 08:49:21,336 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:49:21] "[36mGET /staff/staff_dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-23 08:49:21,407 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:49:21] "[36mGET /staff/staff_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-23 08:49:21,533 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:49:21] "[36mGET /staff/staff_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-23 08:49:57,309 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:49:57] "GET /staff/staff_dashboard HTTP/1.1" 200 -
+2024-03-23 08:49:59,345 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:49:59] "[35m[1mGET /staff/download_document/14 HTTP/1.1[0m" 500 -
+2024-03-23 08:49:59,383 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:49:59] "GET /staff/download_document/14?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-03-23 08:49:59,394 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:49:59] "GET /staff/download_document/14?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-03-23 08:49:59,432 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:49:59] "GET /staff/download_document/14?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-03-23 08:49:59,493 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:49:59] "[36mGET /staff/download_document/14?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-23 08:50:50,717 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\staff\\staff.py', reloading
+2024-03-23 08:50:51,033 - werkzeug - INFO -  * Restarting with stat
+2024-03-23 08:50:52,541 - werkzeug - WARNING -  * Debugger is active!
+2024-03-23 08:50:52,551 - werkzeug - INFO -  * Debugger PIN: 856-462-875
+2024-03-23 08:50:56,077 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:50:56] "GET /staff/download_document/14 HTTP/1.1" 200 -
+2024-03-23 08:51:10,810 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:51:10] "GET /staff/staff_dashboard HTTP/1.1" 200 -
+2024-03-23 08:51:12,187 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:51:12] "GET /staff/download_document/14 HTTP/1.1" 200 -
+2024-03-23 08:51:31,120 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:51:31] "GET /staff/download_document/14 HTTP/1.1" 200 -
+2024-03-23 08:51:50,051 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:51:50] "GET /staff/download_document/14 HTTP/1.1" 200 -
+2024-03-23 08:52:10,251 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:52:10] "GET /staff/download_document/14 HTTP/1.1" 200 -
+2024-03-23 08:52:29,187 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:52:29] "GET /staff/download_document/14 HTTP/1.1" 200 -
+2024-03-23 08:52:46,765 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:52:46] "GET /staff/staff_dashboard HTTP/1.1" 200 -
+2024-03-23 08:52:55,518 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:52:55] "GET /staff/download_document/14 HTTP/1.1" 200 -
+2024-03-23 08:53:14,461 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:53:14] "GET /staff/download_document/14 HTTP/1.1" 200 -
+2024-03-23 08:53:33,391 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:53:33] "GET /staff/download_document/14 HTTP/1.1" 200 -
+2024-03-23 08:53:55,733 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:53:55] "GET /staff/download_document/14 HTTP/1.1" 200 -
+2024-03-23 08:54:14,890 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:54:14] "GET /staff/download_document/14 HTTP/1.1" 200 -
+2024-03-23 08:54:21,356 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\staff\\staff.py', reloading
+2024-03-23 08:54:21,568 - werkzeug - INFO -  * Restarting with stat
+2024-03-23 08:54:23,413 - werkzeug - WARNING -  * Debugger is active!
+2024-03-23 08:54:23,421 - werkzeug - INFO -  * Debugger PIN: 856-462-875
+2024-03-23 08:54:34,138 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:54:34] "GET /staff/download_document/14 HTTP/1.1" 200 -
+2024-03-23 08:55:24,991 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:55:24] "GET /staff/staff_dashboard HTTP/1.1" 200 -
+2024-03-23 08:55:25,122 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\staff\\staff.py', reloading
+2024-03-23 08:55:25,315 - werkzeug - INFO -  * Restarting with stat
+2024-03-23 08:55:26,819 - werkzeug - WARNING -  * Debugger is active!
+2024-03-23 08:55:26,830 - werkzeug - INFO -  * Debugger PIN: 856-462-875
+2024-03-23 08:55:29,929 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:55:29] "[35m[1mGET /staff/download_document/14 HTTP/1.1[0m" 500 -
+2024-03-23 08:55:30,169 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:55:30] "[36mGET /staff/download_document/14?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-23 08:55:30,170 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:55:30] "[36mGET /staff/download_document/14?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-23 08:55:30,211 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:55:30] "[36mGET /staff/download_document/14?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-23 08:55:30,266 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:55:30] "[36mGET /staff/download_document/14?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-23 08:58:37,101 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\staff\\staff.py', reloading
+2024-03-23 08:58:37,299 - werkzeug - INFO -  * Restarting with stat
+2024-03-23 08:58:38,940 - werkzeug - WARNING -  * Debugger is active!
+2024-03-23 08:58:38,947 - werkzeug - INFO -  * Debugger PIN: 856-462-875
+2024-03-23 08:58:42,577 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:58:42] "[35m[1mGET /staff/download_document/14 HTTP/1.1[0m" 500 -
+2024-03-23 08:58:43,820 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:58:43] "GET /staff/staff_dashboard HTTP/1.1" 200 -
+2024-03-23 08:58:45,231 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:58:45] "[35m[1mGET /staff/download_document/14 HTTP/1.1[0m" 500 -
+2024-03-23 08:58:45,486 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:58:45] "[36mGET /staff/download_document/14?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-23 08:58:45,493 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:58:45] "[36mGET /staff/download_document/14?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-23 08:58:45,541 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:58:45] "[36mGET /staff/download_document/14?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-23 08:58:45,584 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:58:45] "[36mGET /staff/download_document/14?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-23 08:59:29,925 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\staff\\staff.py', reloading
+2024-03-23 08:59:30,162 - werkzeug - INFO -  * Restarting with stat
+2024-03-23 08:59:31,767 - werkzeug - WARNING -  * Debugger is active!
+2024-03-23 08:59:31,775 - werkzeug - INFO -  * Debugger PIN: 856-462-875
+2024-03-23 08:59:35,014 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:59:35] "GET /staff/staff_dashboard HTTP/1.1" 200 -
+2024-03-23 08:59:36,814 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:59:36] "[35m[1mGET /staff/download_document/14 HTTP/1.1[0m" 500 -
+2024-03-23 08:59:37,063 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:59:37] "[36mGET /staff/download_document/14?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-23 08:59:37,067 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:59:37] "[36mGET /staff/download_document/14?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-23 08:59:37,100 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 08:59:37] "[36mGET /staff/download_document/14?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-23 09:00:57,877 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\staff\\staff.py', reloading
+2024-03-23 09:00:58,047 - werkzeug - INFO -  * Restarting with stat
+2024-03-23 09:00:59,486 - werkzeug - WARNING -  * Debugger is active!
+2024-03-23 09:00:59,493 - werkzeug - INFO -  * Debugger PIN: 856-462-875
+2024-03-23 09:01:03,236 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:01:03] "GET /staff/staff_dashboard HTTP/1.1" 200 -
+2024-03-23 09:01:04,823 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:01:04] "GET /staff/download_document/14 HTTP/1.1" 200 -
+2024-03-23 09:01:24,206 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:01:24] "GET /staff/download_document/14 HTTP/1.1" 200 -
+2024-03-23 09:01:43,711 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:01:43] "GET /staff/download_document/14 HTTP/1.1" 200 -
+2024-03-23 09:02:04,480 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:02:04] "GET /staff/download_document/14 HTTP/1.1" 200 -
+2024-03-23 09:02:23,933 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:02:23] "GET /staff/download_document/14 HTTP/1.1" 200 -
+2024-03-23 09:02:43,421 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:02:43] "GET /staff/download_document/14 HTTP/1.1" 200 -
+2024-03-23 09:03:07,905 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:03:07] "GET /staff/download_document/14 HTTP/1.1" 200 -
+2024-03-23 09:03:18,847 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\staff\\staff.py', reloading
+2024-03-23 09:03:19,031 - werkzeug - INFO -  * Restarting with stat
+2024-03-23 09:03:22,834 - werkzeug - WARNING -  * Debugger is active!
+2024-03-23 09:03:22,886 - werkzeug - INFO -  * Debugger PIN: 856-462-875
+2024-03-23 09:03:27,486 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:03:27] "[33mGET /staff/download_document/14 HTTP/1.1[0m" 404 -
+2024-03-23 09:30:25,050 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:30:25] "[35m[1mGET /staff/staff_dashboard HTTP/1.1[0m" 500 -
+2024-03-23 09:30:25,558 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:30:25] "[36mGET /staff/staff_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-23 09:30:26,763 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:30:26] "[35m[1mGET /staff/staff_dashboard HTTP/1.1[0m" 500 -
+2024-03-23 09:30:26,799 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:30:26] "[36mGET /staff/staff_dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-23 09:30:26,809 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:30:26] "[36mGET /staff/staff_dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-23 09:30:26,847 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:30:26] "[36mGET /staff/staff_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-23 09:30:26,915 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:30:26] "[36mGET /staff/staff_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-23 09:31:50,360 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:31:50] "[35m[1mGET /staff/staff_dashboard HTTP/1.1[0m" 500 -
+2024-03-23 09:31:50,391 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:31:50] "[36mGET /staff/staff_dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-23 09:31:50,395 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:31:50] "[36mGET /staff/staff_dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-23 09:31:50,432 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:31:50] "[36mGET /staff/staff_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-23 09:31:50,534 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:31:50] "[36mGET /staff/staff_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-23 09:31:52,457 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:31:52] "[35m[1mGET /staff/staff_dashboard HTTP/1.1[0m" 500 -
+2024-03-23 09:31:52,485 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:31:52] "[36mGET /staff/staff_dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-23 09:31:52,493 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:31:52] "[36mGET /staff/staff_dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-23 09:31:52,524 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:31:52] "[36mGET /staff/staff_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-23 09:31:52,594 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:31:52] "[36mGET /staff/staff_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-23 09:32:11,169 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:32:11] "GET /staff/staff_dashboard HTTP/1.1" 200 -
+2024-03-23 09:41:58,634 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\staff\\staff.py', reloading
+2024-03-23 09:41:58,812 - werkzeug - INFO -  * Restarting with stat
+2024-03-23 09:42:00,230 - werkzeug - WARNING -  * Debugger is active!
+2024-03-23 09:42:00,241 - werkzeug - INFO -  * Debugger PIN: 856-462-875
+2024-03-23 09:42:46,201 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:42:46] "[35m[1mGET /staff/staff_dashboard HTTP/1.1[0m" 500 -
+2024-03-23 09:42:46,489 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:42:46] "[36mGET /staff/staff_dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-23 09:42:46,492 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:42:46] "[36mGET /staff/staff_dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-23 09:42:46,547 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:42:46] "[36mGET /staff/staff_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-23 09:42:46,593 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:42:46] "[36mGET /staff/staff_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-23 09:43:26,998 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\staff\\staff.py', reloading
+2024-03-23 09:43:27,203 - werkzeug - INFO -  * Restarting with stat
+2024-03-23 09:43:28,700 - werkzeug - WARNING -  * Debugger is active!
+2024-03-23 09:43:28,708 - werkzeug - INFO -  * Debugger PIN: 856-462-875
+2024-03-23 09:43:32,024 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:43:32] "[35m[1mGET /staff/staff_dashboard HTTP/1.1[0m" 500 -
+2024-03-23 09:43:32,254 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:43:32] "[36mGET /staff/staff_dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-23 09:43:32,262 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:43:32] "[36mGET /staff/staff_dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-23 09:43:32,287 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:43:32] "[36mGET /staff/staff_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-23 09:43:32,351 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:43:32] "[36mGET /staff/staff_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-23 09:44:09,187 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:44:09] "GET /staff/staffLogin HTTP/1.1" 200 -
+2024-03-23 09:44:10,381 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:44:10] "GET /staff/staffLogin HTTP/1.1" 200 -
+2024-03-23 09:44:17,771 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:44:17] "[32mPOST /staff/staffLogin HTTP/1.1[0m" 302 -
+2024-03-23 09:44:17,805 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:44:17] "GET /staff/staff_dashboard HTTP/1.1" 200 -
+2024-03-23 09:46:39,468 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:46:39] "GET /staff/staff_dashboard HTTP/1.1" 200 -
+2024-03-23 09:47:18,349 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:47:18] "GET /staff/staff_dashboard HTTP/1.1" 200 -
+2024-03-23 09:47:30,146 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:47:30] "GET /staff/staff_dashboard HTTP/1.1" 200 -
+2024-03-23 09:51:36,498 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:51:36] "GET /staff/staff_dashboard HTTP/1.1" 200 -
+2024-03-23 09:52:11,446 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 09:52:11] "GET /staff/staff_dashboard HTTP/1.1" 200 -
+2024-03-23 10:08:54,066 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:08:54] "[35m[1mGET /staff/staff_dashboard HTTP/1.1[0m" 500 -
+2024-03-23 10:08:54,096 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:08:54] "[36mGET /staff/staff_dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-23 10:08:54,098 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:08:54] "[36mGET /staff/staff_dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-23 10:08:54,150 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:08:54] "[36mGET /staff/staff_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-23 10:08:54,263 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:08:54] "[36mGET /staff/staff_dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-23 10:08:54,813 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\staff\\staff.py', reloading
+2024-03-23 10:08:54,993 - werkzeug - INFO -  * Restarting with stat
+2024-03-23 10:08:56,358 - werkzeug - WARNING -  * Debugger is active!
+2024-03-23 10:08:56,366 - werkzeug - INFO -  * Debugger PIN: 856-462-875
+2024-03-23 10:11:17,343 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\staff\\staff.py', reloading
+2024-03-23 10:11:17,511 - werkzeug - INFO -  * Restarting with stat
+2024-03-23 10:11:19,144 - werkzeug - WARNING -  * Debugger is active!
+2024-03-23 10:11:19,168 - werkzeug - INFO -  * Debugger PIN: 856-462-875
+2024-03-23 10:11:22,834 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:11:22] "GET /staff/staff_dashboard HTTP/1.1" 200 -
+2024-03-23 10:11:31,844 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:11:31] "[32mGET /staff/approveReq/14 HTTP/1.1[0m" 302 -
+2024-03-23 10:11:31,872 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:11:31] "GET /staff/staff_dashboard HTTP/1.1" 200 -
+2024-03-23 10:11:54,748 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:11:54] "[32mGET /staff/rejectReq/14 HTTP/1.1[0m" 302 -
+2024-03-23 10:11:54,772 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:11:54] "GET /staff/staff_dashboard HTTP/1.1" 200 -
+2024-03-23 10:33:03,829 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\staff\\staff.py', reloading
+2024-03-23 10:33:04,125 - werkzeug - INFO -  * Restarting with stat
+2024-03-23 10:33:06,169 - werkzeug - WARNING -  * Debugger is active!
+2024-03-23 10:33:06,177 - werkzeug - INFO -  * Debugger PIN: 856-462-875
+2024-03-23 10:34:26,459 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:34:26] "GET /staff/IBCC_staff_dashboard HTTP/1.1" 200 -
+2024-03-23 10:35:17,372 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:35:17] "GET /staff/IBCC_staff_dashboard HTTP/1.1" 200 -
+2024-03-23 10:40:01,083 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\staff\\staff.py', reloading
+2024-03-23 10:40:01,256 - werkzeug - INFO -  * Restarting with stat
+2024-03-23 10:40:03,383 - werkzeug - WARNING -  * Debugger is active!
+2024-03-23 10:40:03,397 - werkzeug - INFO -  * Debugger PIN: 856-462-875
+2024-03-23 10:40:33,084 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:40:33] "GET /staff/IBCC_staff_dashboard HTTP/1.1" 200 -
+2024-03-23 10:40:35,468 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:40:35] "GET /staff/rejectReqIBCC/14 HTTP/1.1" 200 -
+2024-03-23 10:40:38,332 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:40:38] "GET /staff/rejectReqIBCC/14 HTTP/1.1" 200 -
+2024-03-23 10:41:57,033 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:41:57] "GET /staff/rejectReqIBCC/14 HTTP/1.1" 200 -
+2024-03-23 10:41:58,793 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:41:58] "GET /staff/rejectReqIBCC/14 HTTP/1.1" 200 -
+2024-03-23 10:42:00,877 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:42:00] "GET /staff/IBCC_staff_dashboard HTTP/1.1" 200 -
+2024-03-23 10:42:02,094 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:42:02] "GET /staff/rejectReqIBCC/14 HTTP/1.1" 200 -
+2024-03-23 10:45:11,188 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:45:11] "GET /staff/rejectReqIBCC/14 HTTP/1.1" 200 -
+2024-03-23 10:45:14,447 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:45:14] "GET /staff/rejectReqIBCC/14 HTTP/1.1" 200 -
+2024-03-23 10:45:26,498 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:45:26] "GET /staff/rejectReqIBCC/14 HTTP/1.1" 200 -
+2024-03-23 10:45:31,358 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:45:31] "GET /staff/rejectReqIBCC/14 HTTP/1.1" 200 -
+2024-03-23 10:45:31,576 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:45:31] "GET /staff/rejectReqIBCC/14 HTTP/1.1" 200 -
+2024-03-23 10:45:31,777 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:45:31] "GET /staff/rejectReqIBCC/14 HTTP/1.1" 200 -
+2024-03-23 10:45:31,969 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:45:31] "GET /staff/rejectReqIBCC/14 HTTP/1.1" 200 -
+2024-03-23 10:45:32,141 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:45:32] "GET /staff/rejectReqIBCC/14 HTTP/1.1" 200 -
+2024-03-23 10:45:32,330 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:45:32] "GET /staff/rejectReqIBCC/14 HTTP/1.1" 200 -
+2024-03-23 10:45:32,537 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:45:32] "GET /staff/rejectReqIBCC/14 HTTP/1.1" 200 -
+2024-03-23 10:45:32,713 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:45:32] "GET /staff/rejectReqIBCC/14 HTTP/1.1" 200 -
+2024-03-23 10:45:32,881 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:45:32] "GET /staff/rejectReqIBCC/14 HTTP/1.1" 200 -
+2024-03-23 10:45:33,060 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:45:33] "GET /staff/rejectReqIBCC/14 HTTP/1.1" 200 -
+2024-03-23 10:45:33,265 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:45:33] "GET /staff/rejectReqIBCC/14 HTTP/1.1" 200 -
+2024-03-23 10:45:33,413 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:45:33] "GET /staff/rejectReqIBCC/14 HTTP/1.1" 200 -
+2024-03-23 10:45:33,594 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:45:33] "GET /staff/rejectReqIBCC/14 HTTP/1.1" 200 -
+2024-03-23 10:45:33,798 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:45:33] "GET /staff/rejectReqIBCC/14 HTTP/1.1" 200 -
+2024-03-23 10:45:34,010 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:45:34] "GET /staff/rejectReqIBCC/14 HTTP/1.1" 200 -
+2024-03-23 10:45:42,076 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:45:42] "GET /staff/staff_dashboard HTTP/1.1" 200 -
+2024-03-23 10:45:49,071 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:45:49] "GET /staff/approveReq/14 HTTP/1.1" 200 -
+2024-03-23 10:46:01,903 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:46:01] "GET /staff/approveReq/14 HTTP/1.1" 200 -
+2024-03-23 10:46:12,796 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:46:12] "GET /staff/approveReq/14 HTTP/1.1" 200 -
+2024-03-23 10:46:22,239 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:46:22] "GET /staff/rejectReq/14 HTTP/1.1" 200 -
+2024-03-23 10:48:15,774 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\staff\\staff.py', reloading
+2024-03-23 10:48:15,950 - werkzeug - INFO -  * Restarting with stat
+2024-03-23 10:48:17,229 - werkzeug - WARNING -  * Debugger is active!
+2024-03-23 10:48:17,236 - werkzeug - INFO -  * Debugger PIN: 856-462-875
+2024-03-23 10:48:22,256 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:48:22] "[32mGET /staff/rejectReq/14 HTTP/1.1[0m" 302 -
+2024-03-23 10:48:22,294 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:48:22] "GET /staff/staff_dashboard HTTP/1.1" 200 -
+2024-03-23 10:48:26,997 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:48:26] "[32mGET /staff/approveReq/14 HTTP/1.1[0m" 302 -
+2024-03-23 10:48:27,013 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:48:27] "GET /staff/staff_dashboard HTTP/1.1" 200 -
+2024-03-23 10:48:28,296 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:48:28] "GET /staff/staff_dashboard HTTP/1.1" 200 -
+2024-03-23 10:48:35,126 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:48:35] "GET /staff/staff_dashboard HTTP/1.1" 200 -
+2024-03-23 10:48:36,339 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:48:36] "[32mGET /staff/rejectReq/14 HTTP/1.1[0m" 302 -
+2024-03-23 10:48:36,363 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:48:36] "GET /staff/staff_dashboard HTTP/1.1" 200 -
+2024-03-23 10:51:14,882 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\staff\\staff.py', reloading
+2024-03-23 10:51:15,043 - werkzeug - INFO -  * Restarting with stat

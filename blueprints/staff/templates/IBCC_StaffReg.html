@@ -11,7 +11,7 @@
     <p>Hello, {{ session['staff_username'] }}!</p>
     
     <!-- Table of documents submitted by students -->
-    <h2>Documents Submitted by Students</h2>
+    <h2>Documents Submitted by Students and approved by Certificate Organization</h2>
     <table >
         <thead>
             <tr>
@@ -35,14 +35,14 @@
                 <td>{{ document.Name }}</td>
                 <td>{{ document.UploadDate }}</td>
 
-                <td>
+                <!-- <td>
                     <form action="{{ url_for('staff.approveReq', document_id=document.Id) }}">
                       <button type="submit" class="btn btn-danger">Approve</button>
                     </form>
-                  </td>
+                  </td> -->
 
                   <td>
-                    <form action="{{ url_for('staff.rejectReq', document_id=document.Id) }}">
+                    <form action="{{ url_for('staff.rejectReqIBCC', document_id=document.Id) }}">
                       <button type="submit" class="btn btn-primary">Rejected</button>
                     </form>
                   </td>
