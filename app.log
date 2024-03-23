@@ -4086,3 +4086,5 @@
 2024-03-23 10:48:36,363 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2024 10:48:36] "GET /staff/staff_dashboard HTTP/1.1" 200 -
 2024-03-23 10:51:14,882 - werkzeug - INFO -  * Detected change in 'D:\\saqiiib\\aliBackend\\IEDS\\blueprints\\staff\\staff.py', reloading
 2024-03-23 10:51:15,043 - werkzeug - INFO -  * Restarting with stat
+2024-03-23 10:51:16,300 - werkzeug - WARNING -  * Debugger is active!
+2024-03-23 10:51:16,306 - werkzeug - INFO -  * Debugger PIN: 856-462-875
