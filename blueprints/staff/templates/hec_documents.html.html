@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Equivalence Documents</title>
+  </head>
+  <body>
+    <h1>Equivalence Documents</h1>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Student Name</th>
+          <th>Student Passport</th>
+          <th>Upload Date</th>
+          <th>Download</th>
+          <th>Action</th>
+          <!-- New column for the action buttons -->
+          <!-- Add more columns if needed -->
+        </tr>
+      </thead>
+      <tbody>
+        {% for document, student in documents %}
+        <tr>
+          <td>{{ student.Name }}</td>
+          <td>{{ student.PassportNumber }}</td>
+          <td>{{ document.UploadDate }}</td>
+          <td>
+            <!-- Download button -->
+            <a
+              href="{{ url_for('staff.download_document', document_id=document.Id) }}"
+              class="btn btn-primary"
+              download
+              >Download</a
+            >
+          </td>
+          <td>
+            <!-- Approve button -->
+            <form
+              action="{{ url_for('staff.CAapproveReq', document_id=document.Id) }}"
+              method="get"
+            >
+              <button type="submit" class="btn btn-success">Approve</button>
+            </form>
+            <!-- Reject button -->
+            <form
+              action="{{ url_for('staff.rejectReq', document_id=document.Id) }}"
+              method="get"
+            >
+              <button type="submit" class="btn btn-danger">Reject</button>
+            </form>
+          </td>
+          <!-- Add more columns if needed -->
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </body>
+</html>

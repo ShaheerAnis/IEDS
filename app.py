@@ -9,6 +9,7 @@ from sqlalchemy import inspect
 # from blueprints.user.user import user_bp
 from blueprints.student.student import student_bp
 from blueprints.admin.admin import admin_bp
+from blueprints.staff.staff import staff_bp
 # from blueprints.contributor.contributor import contributor_bp
 
 app = Flask(__name__)
@@ -51,6 +52,7 @@ mail.init_app(app)
 # app.register_blueprint(user_bp) 
 app.register_blueprint(student_bp, url_prefix="/student")
 app.register_blueprint(admin_bp, url_prefix="/admin")
+app.register_blueprint(staff_bp, url_prefix="/staff")
 # app.register_blueprint(contributor_bp, url_prefix="/contributor")
 
 db.init_app(app)

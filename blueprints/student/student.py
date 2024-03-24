@@ -123,6 +123,7 @@ def studentLogin():
     if request.method == 'POST':
         username = request.form.get('username')
         password = request.form.get('password')
+        
         remember_me = request.form.get('remember_me')
 
         user = Student.query.filter_by(
@@ -142,7 +143,7 @@ def studentLogin():
             else:
                 session.permanent = False
 
-            return render_template('student_dashboard.html')
+            return redirect(url_for('student.studentDashboard'))
         else:
             flash("Login failed. Please try again.")
             return redirect(url_for('student.studentRegister'))
@@ -160,7 +161,7 @@ def allowed_file(filename):
 
 def create_upload_folder():
     if not os.path.exists(Config.UPLOAD_FOLDER):
-        os.makedirs(UPLOAD_FOLDER)
+        os.makedirs(Config.UPLOAD_FOLDER)
 
 @student_bp.route('/completeProfile', methods=['GET', 'POST'])
 def completeProfile():
@@ -202,7 +203,7 @@ def completeProfile():
         
 
         user.CountryId = countryid
-        user.VisaId = "123"
+        user.VisaId = visaid
         user.PassportNumber = passportnumber
         user.FatherName = fathername
         user.NICNumber = nicnumber
@@ -227,6 +228,18 @@ def FindFriends():
         return render_template('error-403.html')
         
     user_id = session['student_user_id']
+    bonify_doc_type = DocType.query.filter_by(DocTypeName='Bonify').first()
+    
+    if not bonify_doc_type:
+        print('Document type "Bonify" not found. Please complete your profile first.', 'error')
+        return redirect(url_for('student.completeProfile'))
+    
+    # Query the Document table to check if the user has applied for the 'Bonify' document
+    bonify_document = Document.query.filter_by(StudentId=user_id, TypeId=bonify_doc_type.Id).first()
+    
+    if not bonify_document:
+        print('Document type "Bonify" not found. Please complete your profile first.', 'error')
+        return redirect(url_for('student.completeProfile'))
     user = Student.query.get(user_id)
     
     # Retrieve the user's CountryId and UniversityId
@@ -248,13 +261,19 @@ def studentDashboard():
     return render_template('student_dashboard.html')
 
 
-@student_bp.route('/applyforNOC', methods=['GET'])
+@student_bp.route('/applyforNOC', methods=['GET', 'POST'])
 def applyforNOC():
     if 'student_user_id' not in session:
         return render_template('error-403.html')
         
+        
+    if request.method == 'GET':
+        return render_template('applyNOC.html')
+    
     user_id = session['student_user_id']
     user = Student.query.get(user_id)
+    
+    noc_option = request.form.get('noc_option')
     
     # Query the DocType table to get the Id of the document type 'Bonify'
     bonify_doc_type = DocType.query.filter_by(DocTypeName='Bonify').first()
@@ -271,7 +290,14 @@ def applyforNOC():
         return redirect(url_for('student.completeProfile'))
     
     # Update the Applied column of the document to True
-    bonify_document.Applied = True
+    if noc_option == 'appliedforhec':
+        bonify_document.AppliedForHEC = True
+    elif noc_option == 'appliedforembassy':
+        bonify_document.AppliedForEmbassy = True
+    elif noc_option == 'appliedforboth':
+        bonify_document.AppliedForEmbassy = True
+        bonify_document.AppliedForHEC = True
+        
     db.session.commit()
     print("Updated")
     
@@ -285,13 +311,28 @@ def applyforEquivalence():
     
     user_id = session['student_user_id']
     
+    bonify_doc_type = DocType.query.filter_by(DocTypeName='Bonify').first()
+    
+    if not bonify_doc_type:
+        print('Document type "Bonify" not found. Please complete your profile first.', 'error')
+        return redirect(url_for('student.completeProfile'))
+    
+    # Query the Document table to check if the user has applied for the 'Bonify' document
+    bonify_document = Document.query.filter_by(StudentId=user_id, TypeId=bonify_doc_type.Id).first()
+    
+    if not bonify_document:
+        print('Document type "Bonify" not found. Please complete your profile first.', 'error')
+        return redirect(url_for('student.completeProfile'))
+    
+    eqv_ID = DocType.query.filter(DocType.DocTypeName == "CertificateVerification").first().Id
     # Check if the user already has a document with TypeId 4 (equivalence)
     existing_equivalence_document = Document.query.filter(
         and_
         (
             Document.StudentId == user_id,
-            Document.TypeId == 4,
-            Document.Applied == True
+
+            Document.TypeId == eqv_ID,
+            Document.AppliedForCA == True
             )
         ).first()
 
@@ -322,8 +363,16 @@ def applyforEquivalence():
             file.save(file_path)
         
         # Update the database with the uploaded file
-            equivalence_doc_type_id = 4  # Hardcoded TypeId for equivalence document
-            new_document = Document(Name=filename, UploadDate=datetime.now(), FileLocation=file_path, StudentId=user_id, TypeId=equivalence_doc_type_id, Applied=True)
+            # equivalence_doc_type_id = 4  # Hardcoded TypeId for equivalence document
+            new_document = Document(Name=filename,
+                                    UploadDate=datetime.now(),
+                                    FileLocation=file_path,
+                                    StudentId=user_id,
+                                    TypeId=eqv_ID,
+                                    AppliedForCA=True,
+                                    Deleted = False,
+                                    Status = False
+                                    )
             db.session.add(new_document)
             db.session.commit()
         
@@ -341,6 +390,20 @@ def approvevisanumber():
 
         
     user_id = session['student_user_id']
+    
+    bonify_doc_type = DocType.query.filter_by(DocTypeName='Bonify').first()
+    
+    if not bonify_doc_type:
+        print('Document type "Bonify" not found. Please complete your profile first.', 'error')
+        return redirect(url_for('student.completeProfile'))
+    
+    # Query the Document table to check if the user has applied for the 'Bonify' document
+    bonify_document = Document.query.filter_by(StudentId=user_id, TypeId=bonify_doc_type.Id).first()
+    
+    if not bonify_document:
+        print('Document type "Bonify" not found. Please complete your profile first.', 'error')
+        return redirect(url_for('student.completeProfile'))
+    
     user = Student.query.get(user_id)
     print(user.Name)
     

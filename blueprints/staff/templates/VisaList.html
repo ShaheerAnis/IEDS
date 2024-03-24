@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Students with Visa</title>
+  </head>
+  <body>
+    <h1>Students with Visa</h1>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Passport</th>
+          <th>Visa</th>
+          <!-- Add more columns if needed -->
+        </tr>
+      </thead>
+      <tbody>
+        {% for student in students_with_visa %}
+        <tr>
+          <td>{{ student.Name }}</td>
+          <td>{{ student.Email }}</td>
+          <td>{{ student.PassportNumber }}</td>
+          <td>{{ student.VisaId }}</td>
+          <!-- Add more columns if needed -->
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </body>
+</html>

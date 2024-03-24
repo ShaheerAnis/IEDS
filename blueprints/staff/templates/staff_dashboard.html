@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Dashboard</title>
+    <!-- Include any necessary CSS stylesheets -->
+</head>
+<body>
+    <h1>Welcome to the Staff Dashboard</h1>
+    <p>Hello, {{ session['staff_username'] }}!</p>
+    
+    <!-- Table of documents submitted by students -->
+    <h2>Documents Submitted by Students</h2>
+    <table >
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Document Name</th>
+                <th>Submission Date</th>
+                <th>Actions</th> <!-- Add a column for actions -->
+            </tr>
+        </thead>
+        <tbody>
+            {% for document in documents %}
+           
+            <tr>
+                
+                <td>
+                    {% for student in students %}
+                        {% if student.Id == document.StudentId %}
+                            {{ student.Name }}
+                        {% endif %}
+                    {% endfor %}
+                </td>
+                <td>{{ document.Name }}</td>
+                <td>{{ document.UploadDate }}</td>
+
+                <td>
+                    <form action="{{ url_for('staff.approveReq', document_id=document.Id) }}">
+                      <button type="submit" class="btn btn-danger">Approve</button>
+                    </form>
+                  </td>
+
+                  <td>
+                    <form action="{{ url_for('staff.rejectReq', document_id=document.Id) }}">
+                      <button type="submit" class="btn btn-primary">Rejected</button>
+                    </form>
+                  </td>
+            </tr>
+         
+            {% endfor %}
+    </table>
+    
+    <!-- Add any other content or functionality specific to the staff dashboard -->
+</body>
+</html>
