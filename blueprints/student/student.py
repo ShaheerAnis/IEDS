@@ -141,8 +141,7 @@ def studentLogin():
                 session.permanent = True
             else:
                 session.permanent = False
-
-            return render_template('student_dashboard.html')
+            return redirect(url_for('student.studentDashboard'))
         else:
             flash("Login failed. Please try again.")
             return redirect(url_for('student.studentRegister'))
@@ -227,6 +226,14 @@ def FindFriends():
         return render_template('error-403.html')
         
     user_id = session['student_user_id']
+    
+    bonify_doc_type = DocType.query.filter_by(DocTypeName='Bonify').first()
+    bonify_document = Document.query.filter_by(StudentId=user_id, TypeId=bonify_doc_type.Id).first()
+    
+    if not bonify_document:
+        print('Bonify letter not found. Please complete your profile first.')
+        return redirect(url_for('student.completeProfile'))
+    
     user = Student.query.get(user_id)
     
     # Retrieve the user's CountryId and UniversityId
@@ -267,7 +274,7 @@ def applyforNOC():
     bonify_document = Document.query.filter_by(StudentId=user_id, TypeId=bonify_doc_type.Id).first()
     
     if not bonify_document:
-        print('Document type "Bonify" not found. Please complete your profile first.', 'error')
+        print('Bonify letter not found. Please complete your profile first.')
         return redirect(url_for('student.completeProfile'))
     
     # Update the Applied column of the document to True
@@ -284,6 +291,13 @@ def applyforEquivalence():
         return render_template('error-403.html')
     
     user_id = session['student_user_id']
+    
+    bonify_doc_type = DocType.query.filter_by(DocTypeName='Bonify').first()
+    bonify_document = Document.query.filter_by(StudentId=user_id, TypeId=bonify_doc_type.Id).first()
+    
+    if not bonify_document:
+        print('Bonify letter not found. Please complete your profile first.')
+        return redirect(url_for('student.completeProfile'))
     
     # Check if the user already has a document with TypeId 4 (equivalence)
     existing_equivalence_document = Document.query.filter(
@@ -341,6 +355,14 @@ def approvevisanumber():
 
         
     user_id = session['student_user_id']
+    
+    bonify_doc_type = DocType.query.filter_by(DocTypeName='Bonify').first()
+    bonify_document = Document.query.filter_by(StudentId=user_id, TypeId=bonify_doc_type.Id).first()
+    
+    if not bonify_document:
+        print('Bonify letter not found. Please complete your profile first.')
+        return redirect(url_for('student.completeProfile'))
+    
     user = Student.query.get(user_id)
     print(user.Name)
     
