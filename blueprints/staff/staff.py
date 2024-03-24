@@ -327,7 +327,8 @@ def staffLogin():
 @staff_bp.route('/staff_dashboard')
 def staff_dashboard():
     # Fetch documents submitted by students, assuming you have a function to do this
-    documents = Document.query.filter_by(TypeId='2').all()
+    documents = Document.query.filter_by(TypeId='2',
+                                         Applied = True).all()
     student_ids = [doc.StudentId for doc in documents]
 
     # Fetch additional data for the students
@@ -342,7 +343,7 @@ def staff_dashboard():
 @staff_bp.route('/approveReq/<int:document_id>', methods=['GET'])
 def approveReq(document_id):
     document = Document.query.get_or_404(document_id)
-    if document.Deleted != False:
+    if document.Deleted != True:
         document.Deleted = False
         db.session.commit()
         
@@ -373,7 +374,7 @@ def rejectReq(document_id):
         
         
     else:
-        documents = Document.query.filter_by(TypeId='2').all()
+        documents = Document.query.filter_by(TypeId='2',).all()
         student_ids = [doc.StudentId for doc in documents]
 
     # Fetch additional data for the students
@@ -421,9 +422,10 @@ def IBCC_staff_dashboard():
 def rejectReqIBCC(document_id):
     document = Document.query.get_or_404(document_id)
     # organizationList = Organization.query.filter_by(Deleted = True) 
-    if document.Status != False:
+    if document.Status != True:
         document.Status = False
         document.Deleted = True
+        document.Applied = False
         db.session.commit()
         
         return redirect(url_for('staff.IBCC_staff_dashboard')) 

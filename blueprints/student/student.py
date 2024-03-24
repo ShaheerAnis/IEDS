@@ -326,7 +326,7 @@ def applyforEquivalence():
         
         # Update the database with the uploaded file
             # equivalence_doc_type_id = 4  # Hardcoded TypeId for equivalence document
-            new_document = Document(Name=filename, UploadDate=datetime.now(), FileLocation=file_path, StudentId=user_id, TypeId=eqv_ID, Applied=True)
+            new_document = Document(Name=filename, UploadDate=datetime.now(), FileLocation=file_path, StudentId=user_id, TypeId=eqv_ID, Applied=True,Deleted = False)
             db.session.add(new_document)
             db.session.commit()
         
